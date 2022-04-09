@@ -1,0 +1,170 @@
+
+    .holderCircle {
+        width: 500px;
+        height: 500px;
+        border-radius: 100%;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .round {
+        position: absolute;
+        left: 40px;
+        top: 45px;
+        width: 410px;
+        height: 410px;
+        border: 2px dotted #ff9600;
+        border-radius: 100%;
+        -webkit-animation: rotation 100s linear infinite;
+    }
+
+    .dotCircle {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 100%;
+        z-index: 20;
+    }
+
+    .dotCircle .itemDot {
+        display: block;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        background: #fff;
+        color: #ff9600;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 30px;
+        z-index: 3;
+        cursor: pointer;
+        border: 2px solid #e6e6e6;
+        font-size: 40px;
+    }
+
+    .dotCircle .itemDot.active,
+    .dotCircle .itemDot:hover {
+        color: #fff;
+        transition: .5s;
+        background: #ff9600;
+        background: linear-gradient(90deg, #f8760b 0, #e6471f);
+        border: 2px solid #fff;
+        box-shadow: 0 30px 30px 0 rgb(0 0 0 / 13%);
+    }
+
+    .dotCircle .itemDot .forActive {
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+    }
+
+    .contentCircle {
+        width: 250px;
+        border-radius: 100%;
+        color: #222;
+        position: relative;
+        top: 165px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .contentCircle .CirItem {
+        border-radius: 100%;
+        color: #222;
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transform: scale(0);
+        transition: .5s;
+        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .dotCircle .itemDot .forActive:before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        top: -15px;
+        position: absolute;
+        transform: rotate(-45deg);
+        border: 6px solid #ff9600;
+        right: -39px;
+    }
+
+    .dotCircle .itemDot .forActive:after {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border: 3px solid #ff9600;
+        bottom: -31px;
+        left: -14px;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    .CirItem.active {
+        z-index: 1;
+        opacity: 1;
+        transform: scale(1);
+        transition: .5s;
+    }
+
+    .title-box .title {
+        font-weight: 600;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .title-box .title {
+        font-weight: 600;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .title-box p {
+        font-size: 17px;
+        line-height: 2em;
+    }
+
+    .h2,
+    h2 {
+        font-size: 32px;
+        display: block;
+    }
+
+    .dotCircle .itemDot.active .forActive {
+        display: block;
+    }
+
+    .contentCircle .CirItem i {
+        font-size: 180px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -90px;
+        color: #000;
+        opacity: 0.1;
+    }

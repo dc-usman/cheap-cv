@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer utilities {
+
+    .bg-primary{
+      @apply  bg-gradient-to-l from-purple-600 to-purple-300;
+    }
+
+    .border-primary{
+        @apply border-purple-600;
+    }
+    
+    .text-primary {
+        @apply  text-purple-900;
+    }
+
+    h1{
+        @apply font-bold text-4xl leading-10  
+    }
+
+    h2 {
+        @apply text-center text-2xl leading-10 my-4;
+    }
+
+    p{
+        @apply my-2;
+    }
+
+    .service-show-section h1{
+        @apply text-xl lg:text-5xl md:text-2xl font-bold text-primary text-center  ;
+    }
+    .service-show-section h2,h3{
+        @apply text-lg lg:text-3xl md:text-xl font-bold text-primary;
+    }
+    .service-show-section h4{
+        @apply text-lg lg:text-3xl md:text-xl font-bold text-primary;
+    }
+    .service-show-section p{
+        @apply my-2;
+    }
+
+} 
+
+
