@@ -52,6 +52,11 @@ class PagesController extends Controller
     {
         return view('pages.reviewscv');
     }
+    
+    public function sample()
+    {
+        return view('pages.cvsamples');
+    }
 
     public function getFare(Request $request)
     {   

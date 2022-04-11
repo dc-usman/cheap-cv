@@ -9,8 +9,15 @@
     <section class="container mx-auto my-10 px-4">
 
         <h1 class="text-primary text-4xl my-4"><strong>About</strong></h1>
+        <p class="my-2" >
+            CheapCVWriting.co.uk is UK’s leading resume writing & editing service providers. We have helped many candidates in achieving their goals and catching the most suitable opportunities. We work in detail and provide CV writing service that professionally represent you in front of an employer.
+        </p>
         <p class="my-2">
-            Content is the key; what you write becomes YOU. Content Writing Services in UAE is here to put your inspiring thoughts and outclass business ideas into the best words. We make things easy for you by expressing your thoughts skillfully with the help of qualified and experienced writers. Today variety of content is written to promote brands, different products, and services. We assist our customers in providing content that is used in blogs, websites, press releases, profile writing, product descriptions, or much more. On top of it, we have a team of experts who can produce quality SEO-optimized content which can make your product digitally strong. The marketing trends today are shifting now words are as important as your product quality. If you are done with designing the best packaging, deriving the best products or services, so do opt for valuable content writing services with us, to not miss any part in the way of your business success.
+            We offer Different services includes, CV writing & Editing, Cover letter writing and Editing, LinkedIn profile editing and makes online profiles. Many skilled, educated and capable people today face problems in finding the right job for themselves. We are here to provide our support as expert CV writers here know very well how to fit in your experience and qualifications in your resume well.
+        </p>
+        <p class="my-2">
+            Our online Resume Editing & Writing services is a platform for the undergraduates, graduates, professional or seniors to hit an opportunity well and get their desired job.
+
         </p>
 
     </section>

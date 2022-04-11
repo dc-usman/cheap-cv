@@ -7,17 +7,18 @@ use Illuminate\Support\Facades\Artisan;
 
 Route::group(['namespace' => 'Web' ], function() {
 
-    Route::get('run_cmd', function () {
-        Artisan::call('cache:clear');
-        Artisan::call('config:cache');
-        dd("Cache is cleared");
-    });
+    // Route::get('run_cmd', function () {
+    //     Artisan::call('cache:clear');
+    //     Artisan::call('config:cache');
+    //     dd("Cache is cleared");
+    // });
 
 
     // PagesController
-    Route::get('/',            "PagesController@index")->name('home');
+    Route::get('/',             "PagesController@index")->name('home');
     Route::get('/about',        "PagesController@about")->name('about');
     Route::get('/reviews',      "PagesController@reviews")->name('reviews');
+    Route::get('/samples',      "PagesController@sample")->name('sample');
     Route::post('/get-fare',    "PagesController@getFare")->name('get.fare');
     Route::post('/order-query', "PagesController@orderQuery")->name('order.query');
     Route::get('/sitemap',      "PagesController@sitemap")->name('sitemap');

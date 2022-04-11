@@ -490,7 +490,7 @@
                         <ul class="flex justify-center pt-3">
 
                             <li class="my-auto text-cyan-600">
-                                <img src="../imgs/balanceicon.svg" class="h-12">
+                                <img src="{{ asset('imgs/bnkpic.png') }}" class="h-12">
 
                             </li>
 
@@ -2078,7 +2078,7 @@
     <!-- resumes -->
     <section class="mx-auto items-center pb-10">
         <h4 class="font-bold text-gray-500 text-4xl text-center py-4"> OUR RESUMES SAMPLES</h4>
-        <p class="text-gray-500 text-center text-md py-2 lg:px-72">You can also pick one of these templates to make your CV
+        <p class="text-gray-800 text-center text-md py-2 lg:px-72">You can also pick one of these templates to make your CV
             and cover letter stand out from the rest. </p>
         <div class="relative">
             <div class=" relative mt-4 grid grid-cols-8 items-baseline">
@@ -2116,12 +2116,14 @@
                 </button>
               </div> -->
         </div>
+        <div class="flex jusutify-center ">
+        <button class="px-6 py-2 rounded-lg bg-purple-800 text-white mx-auto"><a href={{ route('sample') }}>View More Sample</a></button>
+        </div>   
 
-
-        <div class="cv-slider">
+        <div class="cv-slider mt-8">
             <div class="h-64 bg-indigo-400 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
             <div class="h-72 bg-indigo-500 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
-            <div class="h-80 bg-indigo-600 shadow-md"> <img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
+            <div class="h-80 bg-indigo-600 shadow-md"> <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cv-template.png') }}" alt=""></div>
             <div class="h-96 bg-indigo-700 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
             <div class="h-80 bg-blue-400 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
             <div class="h-72 bg-blue-500 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
@@ -2131,6 +2133,7 @@
             $('.cv-slider').slick({
                 centerMode: true,
                 centerPadding: '60px',
+                arrows:false,
                 slidesToShow: 5,
                 responsive: [{
                         breakpoint: 768,
@@ -2184,23 +2187,23 @@
                         <img src="{{ asset('imgs/person-1.png') }}"
                             class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="0">
                         <img src="{{ asset('imgs/person-2.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="1">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="3">
                         <img src="{{ asset('imgs/person-3.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="2">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="6">
                     </div>
                     <div class="inline-flex py-3 space-x-2">
                         <img src="{{ asset('imgs/person-4.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person " target-data="3">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person " target-data="1">
                         <img src="{{ asset('imgs/person-5.png') }}"
                             class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="4">
                         <img src="{{ asset('imgs/person-6.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="5">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="7">
                     </div>
                     <div class="inline-flex py-3 space-x-2">
                         <img src="{{ asset('imgs/person-7.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="6">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="2">
                         <img src="{{ asset('imgs/person-8.png') }}"
-                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="7">
+                            class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="5">
                         <img src="{{ asset('imgs/person-9.png') }}"
                             class="w-16 lg:w-28 rounded-full person hover:cursor-pointer hover:scale-110 transition ease-in-out delay-150 duration-300" id="person" target-data="8">
                     </div>
@@ -2294,7 +2297,7 @@
     <!-- faq -->
     <section>
         <h4 class="font-bold text-gray-500 text-4xl text-center pt-8"> Frequently asked questions</h4>
-        <p class="text-gray-500 text-center text-md py-4 ">Can't Find Here? Contact Us.</p>
+        <p class="text-gray-700 text-center text-md py-4 ">Can't Find Here? Contact Us.</p>
 
         <div class="container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mx-auto px-10 pt-6">
 
@@ -2335,7 +2338,7 @@
                             it.</span>
                     </div>
                 </details>
-                <details class="mb-4 relative">
+                {{-- <details class="mb-4 relative">
                     <summary
                         class="cursor-pointer font-semibold w-full text-gray-600 rounded border border-gray-300 bg-white  focus:border-cyan-500 text-base py-2 px-3 leading-8 mb-1">
                         Do you have British CV writers in your company?</summary>
@@ -2344,7 +2347,7 @@
                             We are a diversified team and we cater orders along a broad range to serve students,
                             professionals, and experts all over the United Kingdom.</span>
                     </div>
-                </details>
+                </details> --}}
 
 
             </div>

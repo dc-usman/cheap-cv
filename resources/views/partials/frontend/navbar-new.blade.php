@@ -54,6 +54,9 @@
                 <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('contact') ? 'border-b-4 border-purple-500' : '' }}"
                     href="{{ route('contact') }}">
                     Contact</a>
+                    <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('sample') ? 'border-b-4 border-purple-500' : '' }}"
+                        href="{{ route('sample') }}">
+                        Samples</a>    
                 <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('reviews') ? 'border-b-4 border-purple-500' : '' }}"
                     href="{{ route('reviews') }}">
                     Reviews</a>
@@ -96,10 +99,17 @@
                         Us</a>
                 </li>
                 <li>
-                    <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white" href="{{ route('contact') }}">Services
+                    <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white" href="{{ route('services') }}">Services
                         </a>
                 </li>
-
+                <li>
+                    <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white" href="{{ route('reviews') }}">Reviews
+                        </a>
+                </li>
+                <li>
+                    <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white" href="{{ route('sample') }}">Reviews
+                        </a>
+                </li>
                 <li class="">
                     <a class=" "
                         href="{{ route('order') }}">

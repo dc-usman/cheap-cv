@@ -34,7 +34,7 @@ class OrderMail extends Mailable
      */
     public function build()
     {
-        $email = $this->markdown('email.order')->subject('CheapCVW Order Confirmation')->with(["data" => $this->data]);
+        $email = $this->markdown('email.order')->subject('Cheap CV Writing Order Confirmation')->with(["data" => $this->data]);
 
         foreach ($this->attachmentsPath as $filePath) {
             $email->attachFromStorage('/public/'. $filePath);

@@ -103,7 +103,7 @@ class OrdersController extends Controller
              Mail::to($request->email)->send(new OrderMail($request, $files));
 
             // Send mail to admin
-            // Mail::to(env('MAIL_FROM_ADDRESS') )->send(new OrderAdminMail($request, $files));
+             Mail::to(env('MAIL_FROM_ADDRESS','info@cheapcvwriting.co.uk') )->send(new OrderAdminMail($request, $files));
         DB::commit();
              //return $order;
 
