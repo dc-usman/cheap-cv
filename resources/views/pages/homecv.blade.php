@@ -490,7 +490,7 @@
                         <ul class="flex justify-center pt-3">
 
                             <li class="my-auto text-cyan-600">
-                                <img src="{{ asset('imgs/bnkpic.png') }}" class="h-12">
+                                <img src="{{ asset('imgs/bank-logo.svg') }}" class="h-[36px] my-2">
 
                             </li>
 
@@ -971,9 +971,9 @@
                         level help for CV writing
                         UK is only for you. </h5>
 
-                    <a href="#"
+                    {{-- <a href="#"
                         class=" text-white bg-gray-500 border-0 py-2 px-3 hover:bg-purple-600 rounded-2xl text-md text-center">Read
-                        more</a>
+                        more</a> --}}
 
                 </div>
 
@@ -1012,9 +1012,9 @@
                         the crowd with a
                         job-winning profile. </h5>
 
-                    <a href="#"
+                    {{-- <a href="#"
                         class=" text-white bg-gray-500 border-0 py-2 px-3 hover:bg-purple-600 rounded-2xl text-md text-center">Read
-                        more</a>
+                        more</a> --}}
 
                 </div>
 
@@ -1053,9 +1053,9 @@
                         our CV writing specialists
                         to mark it done. </h5>
 
-                    <a href="#"
+                    {{-- <a href="#"
                         class=" text-white bg-gray-500 border-0 py-2 px-3 hover:bg-purple-600 rounded-2xl text-md text-center">Read
-                        more</a>
+                        more</a> --}}
 
                 </div>
 
@@ -1095,9 +1095,9 @@
                         attract potential
                         opportunities. </h5>
 
-                    <a href="#"
+                    {{-- <a href="#"
                         class=" text-white bg-gray-500 border-0 py-2 px-3 hover:bg-purple-600 rounded-2xl text-md text-center">Read
-                        more</a>
+                        more</a> --}}
 
                 </div>
 
@@ -1112,7 +1112,7 @@
 
         <h4 class="font-bold text-4xl text-center py-9"> It’s Simple to Hire Our Professional CV Services London </h4>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-36 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-36 mx-auto relative">
 
             <div class="mx-auto border-2 border-dashed rounded-full w-64 h-64 border-purple-700 mt-8 md:mt-0">
                 <div class="pt-7">
@@ -1437,7 +1437,18 @@
                 </div>
             </div>
 
+            {{-- curved lines --}}
+            
+
+            <div class="box absolute top-10 left-[22rem]" style="width: 250px;height: 100px;border: solid 5px #000;border-color:  #000 transparent transparent transparent;
+            border-radius: 50%/100px 100px 0px 0px;"></div>
+
+            <div class="box absolute top-10 left-20" style="width: 250px;height: 100px;border: solid 5px #000;border-color:  transparent transparent #000 transparent;
+                border-radius: 0px 0px 110%/100px 32px;"></div>
+
         </div>
+
+    
 
         <p class="text-gray-500 text-lg font-semibold pt-8 pb-3 text-center mx-auto">Still Have Questions?</p>
 
@@ -1445,9 +1456,9 @@
             <a href="#"
                 class=" text-white bg-purple-400 border-0 py-1 px-4 hover:bg-purple-900 rounded text-lg text-center mb-3 mx-20 md:mx-4 md:mb-0">Live
                 Chat</a>
-            <a href="#"
-                class=" text-white bg-purple-600 border-0 py-1 px-4 hover:bg-purple-900 rounded text-lg text-center mb-3 mx-20 md:mx-4 md:mb-0 ">Our
-                Price</a>
+            <a href="{{ route('order') }}"
+                class=" text-white bg-purple-600 border-0 py-1 px-4 hover:bg-purple-900 rounded text-lg text-center mb-3 mx-20 md:mx-4 md:mb-0 ">Order
+                Now</a>
             <a href="#"
                 class=" text-white bg-purple-700 border-0 py-1 px-4 hover:bg-purple-500 rounded text-lg text-center mx-20 md:mx-4 ">Reach
                 us</a>
@@ -2083,25 +2094,25 @@
         <div class="relative">
             <div class=" relative mt-4 grid grid-cols-8 items-baseline">
                 <div class="h-64 bg-indigo-400 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-4.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="">
                 </div>
                 <div class="h-72 bg-indigo-500 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-3.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="">
                 </div>
                 <div class="h-80 bg-indigo-600 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-2.jpg" alt="">
+                    <img class="h-full" src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="">
                 </div>
                 <div class="col-span-2 h-96 bg-indigo-700 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-1.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="">
                 </div>
                 <div class="h-80 bg-blue-400 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-5.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt="">
                 </div>
                 <div class="h-72 bg-blue-500 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-6.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="">
                 </div>
                 <div class="h-64 bg-blue-600 shadow-md">
-                    <img class="w-full h-full" src="../imgs/cv-7.jpg" alt="">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" alt="">
                 </div>
             </div>
             <!-- <div class="absolute bottom-10 left-0 right-0 bg-white rounded-md w-1/3 mx-auto flex justify-between py-4 px-10">
@@ -2121,13 +2132,13 @@
         </div>   
 
         <div class="cv-slider mt-8">
-            <div class="h-64 bg-indigo-400 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
-            <div class="h-72 bg-indigo-500 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
+            <div class="h-64 bg-indigo-400 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt=""></div>
+            <div class="h-72 bg-indigo-500 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" alt=""></div>
             <div class="h-80 bg-indigo-600 shadow-md"> <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cv-template.png') }}" alt=""></div>
-            <div class="h-96 bg-indigo-700 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
-            <div class="h-80 bg-blue-400 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
-            <div class="h-72 bg-blue-500 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
-            <div class="h-64 bg-blue-600 shadow-md"><img class="w-full h-full" src="../imgs/cv-3.jpg" alt=""></div>
+            <div class="h-96 bg-indigo-700 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" alt=""></div>
+            <div class="h-80 bg-blue-400 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" alt=""></div>
+            <div class="h-72 bg-blue-500 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" alt=""></div>
+            <div class="h-64 bg-blue-600 shadow-md"><img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" alt=""></div>
         </div>
         <script>
             $('.cv-slider').slick({

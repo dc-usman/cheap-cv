@@ -41,6 +41,8 @@
     {{-- intl Tel Input CSS --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <style> .iti{ width: 100%; } </style> 
+   {{-- google-font-family --}}
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
 
     @yield('links')
 
@@ -56,6 +58,8 @@
     {{--  --}}
     <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+      
 
 </head>
 <body class="">

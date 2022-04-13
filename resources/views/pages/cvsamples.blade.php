@@ -6,213 +6,280 @@
         <div class="container mx-auto">
 
             {{-- overlay effect --}}
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="0">
-                {{-- Modal Content --}}
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-1"
+                data-target="0">
+
+                {{-- Modal Content Resume --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-1">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" id="image">
                     </div>
                 </div>
             </div>
 
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="1">
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-2"
+                data-target="1">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "id="ok-btn-2">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" id="image" class="h-full">
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="2">
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-3"
+                data-target="2">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-3">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="3">
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-4"
+                data-target="3">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-4">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="4">
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-5"
+                data-target="4">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-5">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="5">
-                {{-- Modal Content --}}
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-6"
+                data-target="5">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    id="ok-btn-6">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="6">
-                {{-- Modal Content --}}
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-7"
+                data-target="6">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-7">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="7">
-                {{-- Modal Content --}}
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-8"
+                data-target="7">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-8">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
-            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" data-target="8">
-                {{-- Modal Content --}}
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-9"
+                data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-9">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="image" class="h-full">
-                        <div class="items-center px-4 py-3">
-                            <button id="ok-btn"
-                                class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
-                                OK
-                            </button>
-                        </div>
+                        <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" id="image" class="h-full">
+
                     </div>
                 </div>
             </div>
-            
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-10"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-10">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" id="image" class="h-full">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-11"
+                data-target="8">          
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-11">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" id="image" class="h-full">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-12"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-12">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" id="image" class="h-full">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-13"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-13">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample01.jpg') }}" id="image" class="h-full">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-14"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-14">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="image" class="h-full">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-15"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-15">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" id="image" class="h-full">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-16"
+                data-target="8">
+                <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                        id="ok-btn-16">
+                    <div class="mt-3 text-center">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" id="image" class="h-full">
+                    </div>
+                </div>
+            </div>
 
 
             <div class="flex flex-row space-x-20">
-        
+
                 <div class=" flex flex-col ">
 
-                    <h4 class="text-2xl text-center my-4">SAMPLE CV / RESUMES</h4>
+                    <h4 class="text-[200%] text-center my-4 text-purple-500 " style="font-family: 'Crimson Pro', serif; ">SAMPLE CV / RESUMES</h4>
                     {{-- grid box --}}
-                    <div class="grid grid-cols-4  gap-2 place-items-center ">
+                    <div class="grid  grid-cols-4  gap-2 place-items-center ">
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/sample3.webp') }}" id="open-btn"
-                                class="h-full hover:scale-110 transition duration-300 delay-150 ease-in-out hover:cursor-pointer ">
+                            <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" id="open-btn-1"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer ">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" id="open-btn-2"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" id="open-btn-3"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" id="open-btn-4"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
-                      
+
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}"
-                                class="h-full hover:scale-110 transition duration-300 delay-150 ease-in-out">
-                        </div>
-                        <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" id="open-btn-5"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" id="open-btn-6"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" id="open-btn-7"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
+                        </div>
+                        <div class="h-[80%]">
+                            <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" id="open-btn-8"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>
 
-                    <h4 class="my-4 text-center text-2xl textBody">SAMPLE COVER LETTERS</h4>
+                    <h4 class="text-[180%] text-center my-4 text-purple-500 " style="font-family: 'Crimson Pro', serif; ">SAMPLE COVER LETTERS</h4>
                     <div class="grid grid-cols-4  gap-2 place-items-center ">
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}"
-                                class="h-full hover:scale-110 transition duration-300 delay-150 ease-in-out">
+                            <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" id="open-btn-9"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" id="open-btn-10"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" id="open-btn-11"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" id="open-btn-12"
+                                class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>
 
-                    <h4 class="my-4 text-center text-2xl textBody">SAMPLE LINKEDIN PROFILES</h4>
-                    <div class="grid grid-cols-4  gap-2 place-items-center ">
+                    <h4 class="text-[200%] text-center my-4 text-purple-500 " style="font-family: 'Crimson Pro', serif; ">SAMPLE LINKEDIN PROFILES</h4>
+                    <div class=" grid grid-cols-4  gap-2 place-items-center ">
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}"
-                                class="h-full hover:scale-110 transition duration-300 delay-150 ease-in-out">
+
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="open-btn-13"
+                                class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="open-btn-14"
+                                class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" id="open-btn-15"
+                                class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cv-template.png') }}" class="h-full">
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" id="open-btn-16"
+                                class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>
                 </div>
@@ -223,31 +290,52 @@
 
 @section('scripts')
     <script>
+        // let modal1=document.getElementById('my-modal');
+        // console.log(modal1);
+        let modal = [document.getElementById("my-modal-1"), document.getElementById("my-modal-2"), document.getElementById(
+                "my-modal-3"), document.getElementById("my-modal-4"), document.getElementById("my-modal-5"), document
+            .getElementById("my-modal-6"), document.getElementById("my-modal-7"), document.getElementById("my-modal-8"),
+            document.getElementById("my-modal-9"), document.getElementById("my-modal-10"), document.getElementById(
+                "my-modal-11"), document.getElementById("my-modal-12"), document.getElementById("my-modal-13"), document
+            .getElementById("my-modal-14"), document.getElementById("my-modal-15"), document.getElementById(
+                "my-modal-16")
+        ];
+        let image = [document.getElementById("open-btn-1"), document.getElementById("open-btn-2"), document.getElementById(
+                "open-btn-3"), document.getElementById("open-btn-4"), document.getElementById("open-btn-5"), document
+            .getElementById("open-btn-6"), document.getElementById("open-btn-7"), document.getElementById("open-btn-8"),
+            document.getElementById("open-btn-9"), document.getElementById("open-btn-10"), document.getElementById(
+                "open-btn-11"), document.getElementById("open-btn-12"), document.getElementById("open-btn-13"), document
+            .getElementById("open-btn-14"), document.getElementById("open-btn-15"), document.getElementById(
+                "open-btn-16")
+        ];
+        let button = [document.getElementById("ok-btn-1"), document.getElementById("ok-btn-2"), document.getElementById(
+                "ok-btn-3"), document.getElementById("ok-btn-4"), document.getElementById("ok-btn-5"), document
+            .getElementById("ok-btn-6"), document.getElementById("ok-btn-7"), document.getElementById("ok-btn-8"),
+            document.getElementById("ok-btn-9"), document.getElementById("ok-btn-10"), document.getElementById("ok-btn-11"),
+            document.getElementById("ok-btn-12"), document.getElementById("ok-btn-13"), document.getElementById("ok-btn-14"),
+            document.getElementById("ok-btn-15"), document.getElementById("ok-btn-16")
+        ];
 
-for (let i = 0; i < 9; i++) {
-            target-data[i].addEventListener("click", function);
-            
-        }
+        for (let i = 0; i < modal.length; i++) {
 
-        
-        
-        image.onclick = function() {
-            let modal = document.getElementById("my-modal");
-            let image = document.getElementById("open-btn");
-            let button = document.getElementById("ok-btn");
+            image[i].onclick = function() {
 
-            modal.style.display = "block";
-        }
-        // We want the modal to close when the OK button is clicked
-        button.onclick = function() {
-            modal.style.display = "none";
-        }
+                modal[i].style.display = "block";
 
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
+                button[i].onclick = function() {
+                    modal[i].style.display = "none";
+                }
+
+
+                window.onclick = function(event) {
+                    if (event.target == modal[i]) {
+                        modal[i].style.display = "none";
+                    }
+                }
+
             }
+
+
         }
-}
     </script>
 @endsection
