@@ -1,4 +1,7 @@
 @extends('layouts.web')
+@section('title')
+@section('description')
+@section('canonical', config('app.url') )
 
 @section('content')
     <section class="container mx-auto">

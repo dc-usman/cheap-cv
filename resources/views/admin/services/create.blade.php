@@ -20,7 +20,7 @@
                                     <label class="required" for="name">{{ trans('cruds.service.fields.name') }}</label>
                                     <input class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }} get-slug" type="text" name="name" id="name" value="{{ old('name', '') }}" >
                                     @if($errors->has('name'))
-                                        <div class="invalid-feedback">
+                                        <div class="invalid-feedback"> 
                                             {{ $errors->first('name') }}
                                         </div>
                                     @endif
@@ -139,7 +139,7 @@
                     success: function(res){
                         console.log(res)
                         $('#slug').val(res);
-                        $('#canonical').val( '{{ config('app.url')."services/" }}' +res);
+                        $('#canonical').val( '{{ config('app.url')."/" }}' +res);
                     },
                     error: function(res) {
                         var errors = res.responseJSON.errors;

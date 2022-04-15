@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,7 +71,8 @@
      @include('partials.frontend.footer-new')  
 
     {{-- {{ TawkTo::widgetCode("https://tawk.to/chat/". env('TAWKTO_LINK') ) }} --}}
-
+    {{-- Tawto --}}
+    {{ \TawkTo::widgetCode('https://embed.tawk.to/6258123cb0d10b6f3e6d92a6/1g0k0efnu') }}
     {{-- scripts --}}
     
     {{-- jQuery cdn --}}

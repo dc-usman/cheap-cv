@@ -11,10 +11,10 @@
 
                 {{-- Modal Content Resume --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-1">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" id="image">
+                        <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="Cheap Cv" id="image">
                     </div>
                 </div>
             </div>
@@ -23,9 +23,9 @@
                 data-target="1">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "id="ok-btn-2">
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "id="ok-btn-2">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -34,10 +34,10 @@
                 data-target="2">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-3">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -47,10 +47,10 @@
                 data-target="3">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-4">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -60,10 +60,10 @@
                 data-target="4">
                 {{-- Modal Content --}}
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-5">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -72,10 +72,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-6"
                 data-target="5">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                     id="ok-btn-6">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -84,10 +84,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-7"
                 data-target="6">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-7">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -96,10 +96,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-8"
                 data-target="7">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-8">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -108,10 +108,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-9"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-9">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -120,10 +120,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-10"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-10">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -132,10 +132,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-11"
                 data-target="8">          
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-11">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
 
                     </div>
                 </div>
@@ -144,10 +144,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-12"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-12">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -155,10 +155,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-13"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-13">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/linkedin-sample01.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample01.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -166,10 +166,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-14"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-14">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -177,10 +177,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-15"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-15">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" alt="Cheap Cv" id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -188,10 +188,10 @@
             <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal-16"
                 data-target="8">
                 <div class="relative  mx-auto p-5 border w-[35%] shadow-lg rounded-md bg-white">
-                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" class="w-5 absolute top-3 cursor-pointer "
+                    <img src="{{ asset('imgs/cvsamples/x-icon.png') }}" alt="Cheap Cv" class="w-5 absolute top-3 cursor-pointer "
                         id="ok-btn-16">
                     <div class="mt-3 text-center">
-                        <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" id="image" class="h-full">
+                        <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" alt="Cheap Cv"  id="image" class="h-full">
                     </div>
                 </div>
             </div>
@@ -206,36 +206,36 @@
                     <div class="grid  grid-cols-4  gap-2 place-items-center ">
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" id="open-btn-1"
+                            <img src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="Cheap Cv" id="open-btn-1"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer ">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" id="open-btn-2"
+                            <img src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="Cheap Cv" id="open-btn-2"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" id="open-btn-3"
+                            <img src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv" id="open-btn-3"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" id="open-btn-4"
+                            <img src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="Cheap Cv" id="open-btn-4"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
 
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" id="open-btn-5"
+                            <img src="{{ asset('imgs/cvsamples/resume-05.jpg') }}" alt="Cheap Cv" id="open-btn-5"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" id="open-btn-6"
+                            <img src="{{ asset('imgs/cvsamples/resume-06.jpg') }}" alt="Cheap Cv" id="open-btn-6"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" id="open-btn-7"
+                            <img src="{{ asset('imgs/cvsamples/resume-07.jpg') }}" alt="Cheap Cv" id="open-btn-7"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" id="open-btn-8"
+                            <img src="{{ asset('imgs/cvsamples/resume-08.jpg') }}" alt="Cheap Cv" id="open-btn-8"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>
@@ -244,19 +244,19 @@
                     <div class="grid grid-cols-4  gap-2 place-items-center ">
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" id="open-btn-9"
+                            <img src="{{ asset('imgs/cvsamples/cover-letter01.jpg') }}" alt="Cheap Cv" id="open-btn-9"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" id="open-btn-10"
+                            <img src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt="Cheap Cv" id="open-btn-10"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" id="open-btn-11"
+                            <img src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" alt="Cheap Cv" id="open-btn-11"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" id="open-btn-12"
+                            <img src="{{ asset('imgs/cvsamples/cover-letter04.jpg') }}" alt="Cheap Cv" id="open-btn-12"
                                 class="h-full hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>
@@ -266,19 +266,19 @@
                         {{-- <section id="123" > --}}
                         <div class="h-[80%]">
 
-                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="open-btn-13"
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="Cheap Cv" id="open-btn-13"
                                 class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" id="open-btn-14"
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="Cheap Cv" id="open-btn-14"
                                 class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" id="open-btn-15"
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample03.jpg') }}" alt="Cheap Cv" id="open-btn-15"
                                 class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                         <div class="h-[80%]">
-                            <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" id="open-btn-16"
+                            <img src="{{ asset('imgs/cvsamples/linkedin-sample04.jpg') }}" alt="Cheap Cv" id="open-btn-16"
                                 class="h-[80%] hover:translate-y-5 transition duration-300 delay-150  hover:cursor-pointer">
                         </div>
                     </div>

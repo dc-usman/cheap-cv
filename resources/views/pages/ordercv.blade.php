@@ -1,5 +1,7 @@
 @extends('layouts.web')
-
+@section('title')
+@section('description')
+@section('canonical', config('app.url') )
 
 @section('content')
 <div id="msg-bag" class="my-4"></div>

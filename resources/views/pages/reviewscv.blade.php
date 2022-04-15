@@ -1,9 +1,12 @@
 @extends('layouts.web')
+@section('title')
+@section('description')
+@section('canonical', config('app.url') )
 
 @section('content')
     <main>
       <div class="bg-primary py-8">
-        <h1 class="text-xl md:text-4xl pb-3 font-medium text-purple-900 text-center">Reviews showcasing CVWritings integrity</h1>
+        <h1 class="text-xl md:text-4xl pb-3 font-medium text-purple-900 text-center">Reviews showcasing CheapCVWritings integrity</h1>
         <p class="text-lg md:text-2xl font-medium text-center text-white">We invest in customer's satisfaction and success</p>
         <hr class="h-1 w-1/5 mx-auto mt-6 bg-white">
         <p class="text-xl md:text-2xl font-medium pt-8 text-center text-white">CUSTOMER REVIEWS</p>
@@ -173,7 +176,7 @@
                       <img src="../imgs/icon1.svg" alt="profile image" class="w-full h-full object-cover">
                   </div>
                   <div>
-                      <p class="">“Glad to know CVWritings is offering such quality-driven work at such affordable rates.”</p>
+                      <p class="">“Glad to know <a class="hover:text-purple-500" href="{{ route('home')}}"> cheapcvwiting.co.uk</a> is offering such quality-driven work at such affordable rates.”</p>
                       <div class="text-gray-900 font-bold uppercase mt-6">- Robert.</div>
                       <ul class="flex mt-1">
 

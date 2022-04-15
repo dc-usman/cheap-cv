@@ -13,11 +13,13 @@ use App\Events\OrderCreated;
 use App\Fare;
 use App\FareModel;
 use App\File;
+use App\Filecv;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreOrderRequest;
 use App\Mail\OrderAdminMail;
 use App\Mail\OrderMail;
 use App\Order;
+use App\Ordercv;
 use App\PaperType;
 use App\ReferenceStyle;
 use App\Subject;
@@ -70,14 +72,12 @@ class OrdersController extends Controller
         $files = [];
 
           $fare = FareModel::where(['carrer_level_id' => $request->carrer_level, 'select_service_id' => $request->select_service ,'day_model_id'=>$request->deadline_id] )->firstOrFail();
-           // return $fare;
+          
            $request->merge([
-    //     //      'cost_per_page' => $fare->per_,
                "total_price" => $fare->fare,
-               
                'carrer_level' => $fare->carrer_level,
                'deadline' => $fare->deadline_id,
-               //'select_service'=>$fare->select_service->name,
+               
            ]);
 
            

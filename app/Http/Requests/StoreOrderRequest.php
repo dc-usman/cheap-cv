@@ -36,17 +36,6 @@ class StoreOrderRequest extends FormRequest
 
         ];
 
-        // {
-        //     "carrer_level": "3",
-        //     "select_services": "1",
-        //     "deadline_id": "11",
-        //     "name": "Demetria Fox",
-        //     "email": "nygeco@mailinator.com",
-        //     "phone": "+1 (533) 936-8227",
-        //     "detail": "Quos qui nulla incid",
-        //     "updated_at": "2022-03-24T05:12:45.000000Z",
-        //     "created_at": "2022-03-24T05:12:45.000000Z",
-        //     "id": 6
-        //     }
+     
     }
 }

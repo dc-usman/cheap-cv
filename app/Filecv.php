@@ -4,10 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class File extends Model
+class Filecv extends Model
 {
-
-    public $table = 'files';
+    public $table = 'filecvs';
 
     public $timestamps = false;
 
@@ -17,10 +16,8 @@ class File extends Model
         "file_path"
     ];
 
-    public function order()
+    public function ordercv()
     {
-        return $this->belongsTo(Order::class, 'order_id');
+        return $this->belongsTo(Ordercv::class, 'order_id');
     }
-
-  
 }

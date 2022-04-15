@@ -139,7 +139,7 @@
                     success: function(res){
                         console.log(res)
                         $('#slug').val(res);
-                        $('#canonical').val( '{{ config('app.url')."services/" }}' +res);
+                        $('#canonical').val( '{{ config('app.url')."/" }}' +res);
                     },
                     error: function(res) {
                         var errors = res.responseJSON.errors;

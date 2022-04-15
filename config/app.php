@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://writingservice.com.pk/'),
+    'url' => env('APP_URL', 'https://cheapcvwriting.co.uk/'),
     
-    'app_url' =>  'https://writingservice.com.pk/',
+    'app_url' =>  'https://cheapcvwriting.co.uk/',
     
     'app_contact' => '92344251',
     

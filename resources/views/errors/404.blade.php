@@ -2,7 +2,7 @@
 
 @section('title', 'Woops! 404 Not Found')
 @section('description', '')
-@section('canonical', config('app.app_url') . Request::path() )
+@section('canonical', config('app.url') . Request::path() )
 
 @section('content')
 
