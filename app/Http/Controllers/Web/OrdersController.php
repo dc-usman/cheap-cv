@@ -98,14 +98,15 @@ class OrdersController extends Controller
                     ]);
                 }
             }
+            // $data = $request->all();
+            // return $data[];
 
             // Send mail to user
-             Mail::to($request->email)->send(new OrderMail($request, $files));
+             Mail::to($request->email)->send(new OrderMail($order, $files));
 
             // Send mail to admin
-             Mail::to(env('MAIL_FROM_ADDRESS','info@cheapcvwriting.co.uk') )->send(new OrderAdminMail($request, $files));
+            //  Mail::to(env('MAIL_FROM_ADDRESS','info@cheapcvwriting.co.uk') )->send(new OrderAdminMail($order, $files));
         DB::commit();
-             //return $order;
 
        //  return view('pages.order-success', compact('order'))->with('success', 'Thank you for reaching out!');
 

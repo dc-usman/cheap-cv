@@ -25,6 +25,7 @@ class Order extends Model
         "total_price",
         "detail",
         "is_complete",
+
     ];
 
     public function files()
@@ -32,10 +33,18 @@ class Order extends Model
         return $this->hasMany(File::class);
     }
 
-    public function deadline()
+    public function carrer_level()
     {
-        return $this->belongsTo(Deadline::class);
+        return $this->belongsTo(CarrerLevelModel::class, 'carrer_level', 'id' );
     }
 
-    
+     public function selectService()
+     {
+         return $this->belongsTo(SelectServices::class,'select_service', 'id');
+     }
+
+    public function dayModel()
+    {
+        return $this->belongsTo(DayModel::class,'deadline_id', 'id');
+    }
 }

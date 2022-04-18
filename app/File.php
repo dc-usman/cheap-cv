@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class File extends Model
 {
-
+   
     public $table = 'files';
 
     public $timestamps = false;
@@ -22,5 +22,4 @@ class File extends Model
         return $this->belongsTo(Order::class, 'order_id');
     }
 
-  
 }

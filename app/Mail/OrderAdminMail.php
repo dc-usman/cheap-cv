@@ -7,12 +7,13 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Order;
 
 class OrderAdminMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    protected $data;
+    protected $order;
     protected $attachmentsPath;
 
     /**
@@ -20,11 +21,12 @@ class OrderAdminMail extends Mailable
      *
      * @return void
      */
-    public function __construct(Request $request, $files)
+    public function __construct(Order $order, $files)
     {
-        $this->data = $request->all();
+        $this->order = $order;
         $this->attachmentsPath = $files;
     }
+
 
     /**
      * Build the message.
@@ -33,14 +35,19 @@ class OrderAdminMail extends Mailable
      */
     public function build()
     {
-        // return $this->markdown('email.order-admin')->with(["data" => $this->data]);
-
-        $email = $this->markdown('email.order-admin')->subject('Order Placement')->with(["data" => $this->data]);
+        $email = $this->markdown('email.order-admin')->subject('Cheap CV Writing Order Confirmation')->with(["order" => $this->order]);
 
         foreach ($this->attachmentsPath as $filePath) {
             $email->attachFromStorage('/public/'. $filePath);
         }
 
         return $email;
+
+        // return $this->markdown('email.order')
+        //     ->subject('Order Confirmation')
+        //     ->attachFromStorage('/public/uploads/61b73e62a4ecc_1639399010_10.1525_9780520312104-fm.pdf', 'name.pdf', [
+        //         'mime' => 'application/pdf'
+        //     ])
+        //     ->with(["data" => $this->data]);
     }
 }

@@ -28,23 +28,23 @@
                                                         We have successfully received your query. Please make sure the following details are correct.
                                                         <br>
                                                         <br>
-                                                        <strong>  Carrer Level : {{$data['carrer_level']}}</strong>
+                                                        <strong>  Carrer Level : {{$order->carrer_level->name}}</strong>
                                                         <br>
-                                                        <strong>  Service Category : {{$data['select_service']}}</strong>
+                                                        <strong>  Service Category : {{$order->selectService->name}}</strong>
                                                         <br>
-                                                        <strong>  Deadline  : {{$data['deadline_id']}}</strong>
+                                                        <strong>  Deadline  : {{$order->dayModel->name}}</strong>
                                                         <br>
-                                                        <strong>  Detail : {{$data['detail']}}</strong>
+                                                        <strong>  Detail : {{$order->detail}}</strong>
                                                         <br>
-                                                        <strong>  Name : {{$data['name']}}</strong>
+                                                        <strong>  Name : {{$order->name}}</strong>
                                                         <br>
-                                                        <strong>  Email : {{$data['email']}}</strong>
+                                                        <strong>  Email : {{$order->email}}</strong>
                                                         <br>
-                                                        {{-- <strong>  Country : {{$data['country']}}</strong> --}}
+                                                        {{-- <strong>  Country : {{$order->country}}</strong> --}}
                                                     
-                                                        <strong>  Phone : {{$data['phone']}}</strong>
+                                                        <strong>  Phone : {{$order->phone}}</strong>
                                                         <br>
-                                                        <strong>  Total Price : {{$data['total_price']}}</strong>
+                                                        <strong>  Total Price : {{$order->total_price}}</strong>
                                                         <br>
                                                         <br>
                                                     </div>

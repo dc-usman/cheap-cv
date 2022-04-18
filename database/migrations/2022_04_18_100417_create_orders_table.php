@@ -25,6 +25,9 @@ class CreateOrdersTable extends Migration
             $table->mediumText('detail');
             $table->boolean('is_complete')->default(false);
             $table->timestamps();
+
+
+            
         });
     }
 
