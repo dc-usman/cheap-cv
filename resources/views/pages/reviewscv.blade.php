@@ -1,13 +1,13 @@
 @extends('layouts.web')
 @section('title')
 @section('description')
-@section('canonical', config('app.url') )
+@section('canonical', config('app.url'). Request::path() )
 
 @section('content')
     <main>
       <div class="bg-primary py-8">
-        <h1 class="text-xl md:text-4xl pb-3 font-medium text-purple-900 text-center">Reviews showcasing CheapCVWritings integrity</h1>
-        <p class="text-lg md:text-2xl font-medium text-center text-white">We invest in customer's satisfaction and success</p>
+        <h1 class="text-xl md:text-4xl pb-3 font-medium text-purple-900 text-center mx-4 md:mx-0">Reviews showcasing CheapCVWriting integrity</h1>
+        <p class="text-lg md:text-2xl font-medium text-center text-white mx-4 md:mx-0">We invest in customer's satisfaction and success</p>
         <hr class="h-1 w-1/5 mx-auto mt-6 bg-white">
         <p class="text-xl md:text-2xl font-medium pt-8 text-center text-white">CUSTOMER REVIEWS</p>
         <p class="text-7xl font-medium pt-8 text-purple-900 text-center">4.9<span class="text-xl ml-2">/5</span> </p>

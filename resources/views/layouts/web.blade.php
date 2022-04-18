@@ -14,11 +14,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
    
     {{-- Favicon --}}
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    {{-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-     --}}
+   
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     
     {{-- <link rel="manifest" href="./site.webmanifest">
     <meta name="msapplication-config" content="./browserconfig.xml"> --}}
@@ -46,6 +43,35 @@
 
     @yield('links')
 
+    <style>
+      @keyframes tada {
+          from {
+            transform: scale3d(1, 1, 1);
+          }
+        
+          10%, 20% {
+            transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+          }
+        
+          30%, 50%, 70%, 90% {
+            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+          }
+        
+          40%, 60%, 80% {
+            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+          }
+        
+          to {
+            transform: scale3d(1, 1, 1);
+          }
+        }
+        
+        .tada {
+          animation-name: tada;
+        }
+
+
+    </style>
     {{-- FontAwsome 6 --}}
     <script src="https://kit.fontawesome.com/2c6b599d00.js" crossorigin="anonymous"></script>
 

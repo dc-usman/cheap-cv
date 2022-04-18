@@ -244,13 +244,13 @@
 @section('content')
     <!-- Hero -->
     <section class="text-purple-600 body-font ">
-        <div class="container py-4  lg:py-24 mx-auto">
+        <div class="container py-4  lg:py-24 mx-auto ">
             <div class="flex flex-col w-full px-0 md:px-12 ">
-                <h1 class="text-xl sm:text-4xl lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center">Your
+                <h1 class="text-4xl  lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center mx-2 md:mx-0">Your
                     Dream Job is a CV Away</h1>
-                <h4 class="text-xl sm:text-2xl font-medium title-font text-center">Tired of applying and waiting for the
+                <h6 class="text-xl sm:text-2xl font-medium title-font text-center mx-4 md:mx-0">Tired of applying and waiting for the
                     interview call? Here we come to help with cheap CV writing & resume writing service London.
-                </h4>
+                </h6>
 
                 <div class="flex flex-col md:px-12 w-full mt-12">
                     <form action="{{ route('order.query') }}" method="POST">
@@ -1009,339 +1009,9 @@
     <!-- hOW WE DO -->
     <section class="container mx-auto">
 
-        <h2 class="font-bold text-4xl text-center py-9"> It’s Simple to Hire Our Professional CV Services London </h2>
+        <h2 class="font-bold text-4xl text-center py-9 mx-2 md:mx-0"> It’s Simple to Hire Our Professional CV Services London </h2>
 
-        <div class="hidden  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-36 mx-auto ">
-
-            <div class="mx-auto border-2 border-dashed rounded-full w-64 h-64 border-purple-700 mt-8 md:mt-0">
-                <div class="pt-7">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172"
-                        class="mx-auto" style=" fill:#000000;">
-                        <defs>
-                            <linearGradient x1="79.95313" y1="5.07837" x2="79.95313" y2="166.34852"
-                                gradientUnits="userSpaceOnUse" id="color-1_3B0uw4YDaRxB_gr1">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="189.58297" x2="2198.40257" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-2_3B0uw4YDaRxB_gr2">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="189.58297" x2="12266.51303" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-3_3B0uw4YDaRxB_gr3">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="207.05172" x2="2198.40257" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-4_3B0uw4YDaRxB_gr4">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="207.05172" x2="12266.51303" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-5_3B0uw4YDaRxB_gr5">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="171.77828" x2="2198.40257" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-6_3B0uw4YDaRxB_gr6">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="171.77828" x2="12266.51303" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-7_3B0uw4YDaRxB_gr7">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="154.30953" x2="2198.40257" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-8_3B0uw4YDaRxB_gr8">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="154.30953" x2="12266.51303" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-9_3B0uw4YDaRxB_gr9">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="25983.97289" y1="1526.2135" x2="25983.97289" y2="49406.36172"
-                                gradientUnits="userSpaceOnUse" id="color-10_3B0uw4YDaRxB_gr10">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                        </defs>
-                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                            style="mix-blend-mode: normal">
-                            <path d="M0,172v-172h172v172z" fill="none"></path>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M116.79035,30.57031h-73.89684c-5.73311,0 -10.30757,4.83045 -10.30757,10.56355v102.04841c-0.01505,2.74141 1.06501,5.37537 3.00035,7.31702c1.93534,1.94165 4.56578,3.03027 7.30722,3.02414h50.67214c0.05946,0 0.11859,0.02251 0.17771,0.01915c0.05812,0.00302 0.11556,0.02284 0.17402,0.02284c1.34733,0.00313 2.56569,-0.80042 3.09331,-2.04015l28.46197,-28.29098c1.05947,-0.59311 1.71566,-1.7125 1.71563,-2.92669c0,-0.02923 0.06282,-0.05711 0.06181,-0.08634c-0.00101,-0.02923 0.07088,-0.05812 0.07088,-0.08802v-78.9994c-0.00067,-5.73311 -4.79752,-10.56355 -10.53063,-10.56355zM97.42187,141.79183v-14.44531c0,-2.02839 1.505,-3.72219 3.53339,-3.72219h14.55281zM120.60156,116.90625h-19.6463c-5.73311,0 -10.25214,4.70783 -10.25214,10.44094v19.4575h-47.80962c-0.95999,0.00766 -1.88241,-0.37262 -2.55808,-1.05462c-0.67567,-0.68199 -1.04734,-1.60792 -1.03074,-2.5678v-102.04841c0,-2.02839 1.56043,-3.8448 3.58882,-3.8448h73.89684c2.08838,0.06951 3.76004,1.75589 3.81121,3.8448z"
-                                        fill="url(#color-1_3B0uw4YDaRxB_gr1)"></path>
-                                    <path
-                                        d="M56.08913,88.01563h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-2_3B0uw4YDaRxB_gr2)"></path>
-                                    <path
-                                        d="M107.11334,88.01563h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-3_3B0uw4YDaRxB_gr3)"></path>
-                                    <path
-                                        d="M56.08913,105.48437h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-4_3B0uw4YDaRxB_gr4)"></path>
-                                    <path
-                                        d="M107.11334,105.48437h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-5_3B0uw4YDaRxB_gr5)"></path>
-                                    <path
-                                        d="M56.08913,70.21094h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-6_3B0uw4YDaRxB_gr6)"></path>
-                                    <path
-                                        d="M107.11334,70.21094h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-7_3B0uw4YDaRxB_gr7)"></path>
-                                    <path
-                                        d="M56.08913,52.74219h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-8_3B0uw4YDaRxB_gr8)"></path>
-                                    <path
-                                        d="M107.11334,52.74219h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-9_3B0uw4YDaRxB_gr9)"></path>
-                                    <path
-                                        d="M125.58788,18.47656h-77.41445c-1.85533,0 -3.35937,1.50404 -3.35937,3.35937c0,1.85533 1.50404,3.35938 3.35938,3.35938h77.41445c1.89303,-0.00698 3.71006,0.74426 5.04545,2.08603c1.33539,1.34177 2.07798,3.16235 2.06198,5.05533v82.51834c0,1.85533 1.50404,3.35938 3.35938,3.35938c1.85533,0 3.35938,-1.50404 3.35938,-3.35937v-82.51834c0.01413,-3.67436 -1.43693,-7.2028 -4.03193,-9.80416c-2.595,-2.60137 -6.11987,-4.06107 -9.79425,-4.05594z"
-                                        fill="url(#color-10_3B0uw4YDaRxB_gr10)"></path>
-                                </g>
-                            </g>
-                            <path d="" fill="none"></path>
-                            <path d="" fill="none"></path>
-                        </g>
-                    </svg>
-                    <p class="mx-auto font-bold text-center">1. Place An Order</p>
-                    <p class="font-semibold text-gray-600 text-sm text-center mx-4 "> Enter complete requirements of your
-                        order detailing the kind of help you need.
-                    </p>
-                </div>
-            </div>
-
-            <div class="mx-auto border-2 border-dashed rounded-full w-64 h-64 border-purple-700 mt-8 md:mt-0">
-                <div class="pt-7">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172"
-                        class="mx-auto" style=" fill:#000000;">
-                        <defs>
-                            <linearGradient x1="79.95313" y1="5.07837" x2="79.95313" y2="166.34852"
-                                gradientUnits="userSpaceOnUse" id="color-1_3B0uw4YDaRxB_gr1">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="189.58297" x2="2198.40257" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-2_3B0uw4YDaRxB_gr2">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="189.58297" x2="12266.51303" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-3_3B0uw4YDaRxB_gr3">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="207.05172" x2="2198.40257" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-4_3B0uw4YDaRxB_gr4">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="207.05172" x2="12266.51303" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-5_3B0uw4YDaRxB_gr5">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="171.77828" x2="2198.40257" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-6_3B0uw4YDaRxB_gr6">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="171.77828" x2="12266.51303" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-7_3B0uw4YDaRxB_gr7">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="154.30953" x2="2198.40257" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-8_3B0uw4YDaRxB_gr8">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="154.30953" x2="12266.51303" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-9_3B0uw4YDaRxB_gr9">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="25983.97289" y1="1526.2135" x2="25983.97289" y2="49406.36172"
-                                gradientUnits="userSpaceOnUse" id="color-10_3B0uw4YDaRxB_gr10">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                        </defs>
-                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                            style="mix-blend-mode: normal">
-                            <path d="M0,172v-172h172v172z" fill="none"></path>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M116.79035,30.57031h-73.89684c-5.73311,0 -10.30757,4.83045 -10.30757,10.56355v102.04841c-0.01505,2.74141 1.06501,5.37537 3.00035,7.31702c1.93534,1.94165 4.56578,3.03027 7.30722,3.02414h50.67214c0.05946,0 0.11859,0.02251 0.17771,0.01915c0.05812,0.00302 0.11556,0.02284 0.17402,0.02284c1.34733,0.00313 2.56569,-0.80042 3.09331,-2.04015l28.46197,-28.29098c1.05947,-0.59311 1.71566,-1.7125 1.71563,-2.92669c0,-0.02923 0.06282,-0.05711 0.06181,-0.08634c-0.00101,-0.02923 0.07088,-0.05812 0.07088,-0.08802v-78.9994c-0.00067,-5.73311 -4.79752,-10.56355 -10.53063,-10.56355zM97.42187,141.79183v-14.44531c0,-2.02839 1.505,-3.72219 3.53339,-3.72219h14.55281zM120.60156,116.90625h-19.6463c-5.73311,0 -10.25214,4.70783 -10.25214,10.44094v19.4575h-47.80962c-0.95999,0.00766 -1.88241,-0.37262 -2.55808,-1.05462c-0.67567,-0.68199 -1.04734,-1.60792 -1.03074,-2.5678v-102.04841c0,-2.02839 1.56043,-3.8448 3.58882,-3.8448h73.89684c2.08838,0.06951 3.76004,1.75589 3.81121,3.8448z"
-                                        fill="url(#color-1_3B0uw4YDaRxB_gr1)"></path>
-                                    <path
-                                        d="M56.08913,88.01563h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-2_3B0uw4YDaRxB_gr2)"></path>
-                                    <path
-                                        d="M107.11334,88.01563h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-3_3B0uw4YDaRxB_gr3)"></path>
-                                    <path
-                                        d="M56.08913,105.48437h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-4_3B0uw4YDaRxB_gr4)"></path>
-                                    <path
-                                        d="M107.11334,105.48437h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-5_3B0uw4YDaRxB_gr5)"></path>
-                                    <path
-                                        d="M56.08913,70.21094h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-6_3B0uw4YDaRxB_gr6)"></path>
-                                    <path
-                                        d="M107.11334,70.21094h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-7_3B0uw4YDaRxB_gr7)"></path>
-                                    <path
-                                        d="M56.08913,52.74219h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-8_3B0uw4YDaRxB_gr8)"></path>
-                                    <path
-                                        d="M107.11334,52.74219h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-9_3B0uw4YDaRxB_gr9)"></path>
-                                    <path
-                                        d="M125.58788,18.47656h-77.41445c-1.85533,0 -3.35937,1.50404 -3.35937,3.35937c0,1.85533 1.50404,3.35938 3.35938,3.35938h77.41445c1.89303,-0.00698 3.71006,0.74426 5.04545,2.08603c1.33539,1.34177 2.07798,3.16235 2.06198,5.05533v82.51834c0,1.85533 1.50404,3.35938 3.35938,3.35938c1.85533,0 3.35938,-1.50404 3.35938,-3.35937v-82.51834c0.01413,-3.67436 -1.43693,-7.2028 -4.03193,-9.80416c-2.595,-2.60137 -6.11987,-4.06107 -9.79425,-4.05594z"
-                                        fill="url(#color-10_3B0uw4YDaRxB_gr10)"></path>
-                                </g>
-                            </g>
-                            <path d="" fill="none"></path>
-                            <path d="" fill="none"></path>
-                        </g>
-                    </svg>
-
-                    <p class="font-bold text-center">2. Connect with our Representative</p>
-                    <p class="font-semibold text-gray-600 text-sm text-center mx-4 ">After you have placed the order, our
-                        representative will get in touch with you to confirm it.
-                    </p>
-                </div>
-            </div>
-
-            <div
-                class=" mx-auto border-2 border-dashed rounded-full w-64 h-64 border-purple-700 mt-8 md:mt-0 md:col-span-2 lg:col-span-1">
-                <div class="pt-7">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172"
-                        class="mx-auto" style=" fill:#000000;">
-                        <defs>
-                            <linearGradient x1="79.95313" y1="5.07837" x2="79.95313" y2="166.34852"
-                                gradientUnits="userSpaceOnUse" id="color-1_3B0uw4YDaRxB_gr1">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="189.58297" x2="2198.40257" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-2_3B0uw4YDaRxB_gr2">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="189.58297" x2="12266.51303" y2="3414.98609"
-                                gradientUnits="userSpaceOnUse" id="color-3_3B0uw4YDaRxB_gr3">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="207.05172" x2="2198.40257" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-4_3B0uw4YDaRxB_gr4">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="207.05172" x2="12266.51303" y2="3432.45484"
-                                gradientUnits="userSpaceOnUse" id="color-5_3B0uw4YDaRxB_gr5">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="171.77828" x2="2198.40257" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-6_3B0uw4YDaRxB_gr6">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="171.77828" x2="12266.51303" y2="3397.18141"
-                                gradientUnits="userSpaceOnUse" id="color-7_3B0uw4YDaRxB_gr7">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="2198.40257" y1="154.30953" x2="2198.40257" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-8_3B0uw4YDaRxB_gr8">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="12266.51303" y1="154.30953" x2="12266.51303" y2="3379.71266"
-                                gradientUnits="userSpaceOnUse" id="color-9_3B0uw4YDaRxB_gr9">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                            <linearGradient x1="25983.97289" y1="1526.2135" x2="25983.97289" y2="49406.36172"
-                                gradientUnits="userSpaceOnUse" id="color-10_3B0uw4YDaRxB_gr10">
-                                <stop offset="0" stop-color="#8683f1"></stop>
-                                <stop offset="1" stop-color="#32308a"></stop>
-                            </linearGradient>
-                        </defs>
-                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                            style="mix-blend-mode: normal">
-                            <path d="M0,172v-172h172v172z" fill="none"></path>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M116.79035,30.57031h-73.89684c-5.73311,0 -10.30757,4.83045 -10.30757,10.56355v102.04841c-0.01505,2.74141 1.06501,5.37537 3.00035,7.31702c1.93534,1.94165 4.56578,3.03027 7.30722,3.02414h50.67214c0.05946,0 0.11859,0.02251 0.17771,0.01915c0.05812,0.00302 0.11556,0.02284 0.17402,0.02284c1.34733,0.00313 2.56569,-0.80042 3.09331,-2.04015l28.46197,-28.29098c1.05947,-0.59311 1.71566,-1.7125 1.71563,-2.92669c0,-0.02923 0.06282,-0.05711 0.06181,-0.08634c-0.00101,-0.02923 0.07088,-0.05812 0.07088,-0.08802v-78.9994c-0.00067,-5.73311 -4.79752,-10.56355 -10.53063,-10.56355zM97.42187,141.79183v-14.44531c0,-2.02839 1.505,-3.72219 3.53339,-3.72219h14.55281zM120.60156,116.90625h-19.6463c-5.73311,0 -10.25214,4.70783 -10.25214,10.44094v19.4575h-47.80962c-0.95999,0.00766 -1.88241,-0.37262 -2.55808,-1.05462c-0.67567,-0.68199 -1.04734,-1.60792 -1.03074,-2.5678v-102.04841c0,-2.02839 1.56043,-3.8448 3.58882,-3.8448h73.89684c2.08838,0.06951 3.76004,1.75589 3.81121,3.8448z"
-                                        fill="url(#color-1_3B0uw4YDaRxB_gr1)"></path>
-                                    <path
-                                        d="M56.08913,88.01563h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-2_3B0uw4YDaRxB_gr2)"></path>
-                                    <path
-                                        d="M107.11334,88.01563h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-3_3B0uw4YDaRxB_gr3)"></path>
-                                    <path
-                                        d="M56.08913,105.48437h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-4_3B0uw4YDaRxB_gr4)"></path>
-                                    <path
-                                        d="M107.11334,105.48437h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-5_3B0uw4YDaRxB_gr5)"></path>
-                                    <path
-                                        d="M56.08913,70.21094h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-6_3B0uw4YDaRxB_gr6)"></path>
-                                    <path
-                                        d="M107.11334,70.21094h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35938 3.35938,3.35938h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-7_3B0uw4YDaRxB_gr7)"></path>
-                                    <path
-                                        d="M56.08913,52.74219h-7.03755c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h7.03755c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-8_3B0uw4YDaRxB_gr8)"></path>
-                                    <path
-                                        d="M107.11334,52.74219h-40.46737c-1.85533,0 -3.35937,1.50404 -3.35937,3.35938c0,1.85533 1.50404,3.35937 3.35938,3.35937h40.46737c1.85533,0 3.35938,-1.50404 3.35938,-3.35937c0,-1.85533 -1.50404,-3.35937 -3.35937,-3.35937z"
-                                        fill="url(#color-9_3B0uw4YDaRxB_gr9)"></path>
-                                    <path
-                                        d="M125.58788,18.47656h-77.41445c-1.85533,0 -3.35937,1.50404 -3.35937,3.35937c0,1.85533 1.50404,3.35938 3.35938,3.35938h77.41445c1.89303,-0.00698 3.71006,0.74426 5.04545,2.08603c1.33539,1.34177 2.07798,3.16235 2.06198,5.05533v82.51834c0,1.85533 1.50404,3.35938 3.35938,3.35938c1.85533,0 3.35938,-1.50404 3.35938,-3.35937v-82.51834c0.01413,-3.67436 -1.43693,-7.2028 -4.03193,-9.80416c-2.595,-2.60137 -6.11987,-4.06107 -9.79425,-4.05594z"
-                                        fill="url(#color-10_3B0uw4YDaRxB_gr10)"></path>
-                                </g>
-                            </g>
-                            <path d="" fill="none"></path>
-                            <path d="" fill="none"></path>
-                        </g>
-                    </svg>
-                    <p class="text-center font-bold">3. Pay & Wait</p>
-                    <p class="font-semibold text-gray-600 text-sm text-center mx-4 "> Pay in advance to confirm your CV
-                        order and wait till we reach you inbox with a strong CV.
-                    </p>
-                </div>
-            </div>
-
-            {{-- curved lines --}}
-
-
-
-
-        </div>
+       
 
         <div class="hidden lg:grid grid-cols-3 place-items-center relative">
             <div class="outline-dashed outline-purple-700 rounded-full w-64 h-64 ">
@@ -1370,7 +1040,7 @@
 
             <div class="box absolute top-[41.5%] left-[59%] xl:left-[57%] w-[15.5%] xl:w-[19%] h-[41%]" style="border: dashed 3px #9333ea;border-color:  transparent transparent #9333ea transparent;
                 border-radius: 0px 0px 85% 134%/87%;"></div>
-        </div>
+        </div> 
 
         <div class="lg:hidden grid gird-cols-1 place-items-center gap-y-20 relative">
             <div class="outline-dashed outline-purple-700 rounded-full w-64 h-64">
@@ -1395,8 +1065,8 @@
                 </p>
             </div>
 
-            <div class="absolute top-[16rem]  border-l-4 border-dashed h-[77.5px]  border-purple-700"></div>
-            <div class="absolute top-[37rem]  border-l-4 border-dashed h-[77.5px]  border-purple-700"></div>
+            <div class="absolute top-[16rem]  border-l-[3px] border-dashed h-[77.5px]  border-purple-700"></div>
+            <div class="absolute top-[37rem]  border-l-[3px] border-dashed h-[77.5px]  border-purple-700"></div>
         </div>
 
 
@@ -1429,43 +1099,43 @@
         <h3 class="font-bold text-gray-600 text-3xl md:text-4xl text-center py-9 px-2"> Reasons to Choose Our Resume
             Writing Services UK </h3>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 lg:px-20 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 lg:px-20 mx-4 md:mx-0">
 
             <div class="px-2">
                 <img src="../imgs/icon1.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class=" text-center font-bold text-lg">Fastest Turnaround Time</h4>
+                <h6 class=" text-center font-bold text-lg">Fastest Turnaround Time</h6>
                 <p class=" text-center text-md py-2">We respect your time and ours too. And that’s why we always ensure to
                     submit your deliveries ahead of time without leaving room for revisions. </p>
             </div>
             <div class="px-2">
                 <img src="../imgs/icon2.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class="text-black text-center font-bold text-lg">Unique Approach</h4>
+                <h6 class="text-black text-center font-bold text-lg">Unique Approach</h6>
                 <p class=" text-center text-md py-2 lg:pt-9">Our professional CV writers London follows a unique approach
                     while writing resumes, cover letter and LinkedIn profile to make you stand ahead of the crowd.</p>
             </div>
             <div class="px-2">
                 <img src="../imgs/icon3.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class="text-black text-center font-bold text-lg">Cost-Efficient</h4>
+                <h6 class="text-black text-center font-bold text-lg">Cost-Efficient</h6>
                 <p class=" text-center text-md py-2 lg:pt-9">We know writing a CV takes creative input and also ample time
                     but it won’t let us increase our prices. To help maximum people earn their bread and butter, we offer
                     cheap CV writing service UK. </p>
             </div>
             <div class="px-2">
                 <img src="../imgs/icon4.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class="text-black text-center font-bold text-lg">Top CV Writers</h4>
+                <h6 class="text-black text-center font-bold text-lg">Top CV Writers</h6>
                 <p class=" text-center text-md py-2 lg:pt-9 ">We have expert CV writers, editors, career counsellors from
                     London UK who can guide you in any manner you want. Even if you have written your CV, our editors can
                     help you polish it.</p>
             </div>
             <div class="px-2">
                 <img src="../imgs/icon5.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class="text-black text-center font-bold text-lg">100% Confidentiality</h4>
+                <h6 class="text-black text-center font-bold text-lg">100% Confidentiality</h6>
                 <p class=" text-center text-md py-2">We are committed to securing your information and identity and that’s
                     why we don’t share your information with any third party. We intend to keep it 100% confidential. </p>
             </div>
             <div class="px-2 md:pt-4 lg:pt-6">
                 <img src="../imgs/icon6.svg" class="w-12 mx-auto" alt="icon">
-                <h4 class="text-black text-center font-bold text-lg">Round the Clock Support</h4>
+                <h6 class="text-black text-center font-bold text-lg">Round the Clock Support</h6>
                 <p class=" text-center text-md py-2">We provide support via live chat, call, and writing assistants. To
                     give you the fastest turnaround time, we also deliver orders within two days. For any kind of support,
                     our professional CV writing service London remains available for help. </p>
@@ -1475,7 +1145,7 @@
 
     <!-- price tabs -->
     <section class="bg-bgtabs bg-no-repeat bg-right bg-cover mx-auto pb-10">
-        <h3 class="font-bold text-white text-4xl text-center py-9"> One of the Best CV Writing Companies UK with Affordable
+        <h3 class="font-bold text-white text-4xl text-center py-9 mx-4 md:mx-0"> One of the Best CV Writing Companies UK with Affordable
             Solutions</h3>
 
 
@@ -1525,343 +1195,29 @@
                         <div id="first" class="p-4">
                             <div class="bg-white rounded-[2rem] py-4 px-12 shadow-xl">
 
-                                <h4 id="service-title-1" class="text-2xl mb-4">loading...</h4>
+                                <div id="service-title-1" class="text-2xl mb-4">loading...</div>
                                 <div id="service-bullets">
                                 </div>
 
                                 <div class="grid grid-cols-1 md:grid-cols-3">
                                     <p class="text-3xl mt-3 text-bold" ><b class="text-3xl" id="tab-price"></b>£</p>
-                                    <p class="text-3xl mt-3 text-gray-400"> <del><b class="text-3xl " id="tab-old-price"></b>£</del>
-                                    </p>
+                                    <p class="text-3xl mt-3 text-gray-400"> <del><b class="text-3xl " id="tab-old-price"></b></del>
+                                        £</p>
                                     <a href="{{ route('order') }}"
-                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg text-center m-auto px-7 py-2 ">Choose</a>
+                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg  m-auto px-3 py-2 ">Order Now</a>
                                 </div>
 
                             </div>
                         </div>
 
-                        {{-- <div id="second" class="hidden p-4">
 
-                            <div class="bg-white rounded-[2rem] py-4 px-12 shadow-xl">
-
-                                <h4 class="text-2xl mb-4">Cover letter</h4>
-
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> PDF and Doc format </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Keyword Optimized </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-
-                                <div class="grid grid-cols-1 md:grid-cols-3">
-                                    <p class="text-md mt-3">USD<b class="text-3xl">219</b></p>
-                                    <p class="text-md mt-3 text-gray-400"> USD<del><b class="text-3xl">219</b></del>
-                                    </p>
-                                    <a href="#"
-                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg text-center m-auto px-7 py-2 ">Our
-                                        Price</a>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="third" class="hidden p-4">
-
-                            <div class="bg-white rounded-[2rem] py-4 px-12 shadow-xl">
-
-                                <h4 class="text-2xl mb-4">CV</h4>
-
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> PDF and Doc format </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Keyword Optimized </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-                                <span class="flex mt-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                        width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;"
-                                        class="my-auto">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="#9b59b6"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <p class="ml-2"> Custom Written CV </p>
-                                </span>
-
-                                <div class="grid grid-cols-1 md:grid-cols-3">
-                                    <p class="text-md mt-3">USD<b class="text-3xl">219</b></p>
-                                    <p class="text-md mt-3 text-gray-400"> USD<del><b class="text-3xl">219</b></del>
-                                    </p>
-                                    <a href="#"
-                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg text-center m-auto px-7 py-2 ">Our
-                                        Price</a>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="fourth" class="hidden p-4">
-                            Fourth tab
-                        </div> --}}
 
                     </div>
 
                 </div> <!-- Tab content end -->
 
                 <div class="col-span-12 px-5 lg:col-span-10 lg:col-start-1">
-                    <h4 id="service-title-2" class="text-2xl my-4">loading...</h4>
+                    <div id="service-title-2" class="text-2xl my-4">loading...</div>
                     <p id="service-content" class="text-lg mb-4 ">loading...</p>
                 </div>
 
@@ -1883,7 +1239,7 @@
             </div>
 
 
-            <div class="col-span-12 lg:col-span-6 lg:w-[70%] md:px-4 lg:px-0">
+            <div class="col-span-12 lg:col-span-6 lg:w-[70%] md:px-4 lg:px-0 mx-4 md:mx-0">
                 <h4 class="text-purple-500 text-3xl font-bold pt-10 pb-5 text-center md:text-left ">Get Perfect CVs by the
                     Best Professional CV Writers UK</h4>
                 <p class="text-black text-md pt-3 text-center md:text-left py-2">Meet the top CV writers from London to
@@ -1895,9 +1251,6 @@
                     experts </p>
                 <p class="text-black text-md  py-2 text-center md:text-left">Show your true potential by adding an
                     extraordinary touch to your resume </p>
-                <!-- <a href="#"
-                      class=" mt-10 text-white bg-pink-600 border-0 hover:bg-purple-500 rounded text-lg text-center px-7 py-2 ">OPEN
-                      DOORS FOR ME</a> -->
                 <div class="flex flex-col justify-center my-8 mx-6 md:mx-0 md:justify-start md:flex-row ">
                     <a href="{{ route('contact') }}"
                         class="text-white bg-pink-600 border-0 hover:bg-purple-500 rounded text-lg text-center px-7 py-2 ">Connect
@@ -1913,46 +1266,41 @@
     </div>
 
     <!-- resumes -->
-    <section class="mx-auto items-center pb-10">
-        <h4 class="font-bold text-gray-500 text-4xl text-center py-4"> OUR RESUMES SAMPLES</h4>
-        <p class="text-gray-800 text-center text-md py-2 lg:px-72">You can also pick one of these templates to make your CV
+    <section class="mx-auto items-center pb-10 ">
+    <div class="mx-4 md:mx-0">
+        <h6 class="font-bold text-gray-500 text-4xl text-center py-4"> OUR RESUMES SAMPLES</h6>
+        <p class="text-gray-800 text-center text-md py-2 lg:px-72 mx-2 md:mx-0">You can also pick one of these templates to make your CV
             and cover letter stand out from the rest. </p>
         <div class="relative">
-            <div class=" relative mt-4 grid grid-cols-8 items-baseline">
-                <div class="h-64 bg-indigo-400 shadow-md">
+            <div class=" relative mt-4 grid grid-cols-1 md:grid-cols-8 items-baseline ">
+                
+                <div class="h-64  bg-indigo-400 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="h-72 bg-indigo-500 shadow-md">
+                <div class=" h-72 bg-indigo-500 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="h-80 bg-indigo-600 shadow-md">
-                    <img class="h-full" src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv">
+                <div class=" h-80 bg-indigo-600 shadow-md">
+                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="col-span-2 h-96 bg-indigo-700 shadow-md">
+                <div class=" col-span-1 md:col-span-2 h-96  bg-indigo-700 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="h-80 bg-blue-400 shadow-md">
+                <div class=" h-80 bg-blue-400 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="h-72 bg-blue-500 shadow-md">
+                <div class=" h-72 bg-blue-500 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="Cheap Cv">
                 </div>
-                <div class="h-64 bg-blue-600 shadow-md">
+                <div class="h-64  bg-blue-600 shadow-md">
                     <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" alt="Cheap Cv">
                 </div>
+                
             </div>
-            <!-- <div class="absolute bottom-10 left-0 right-0 bg-white rounded-md w-1/3 mx-auto flex justify-between py-4 px-10">
-                    <button class="border-orange-700 rounded-full">
-                      ←
-                    </button>
-                    <button class="bg-orange-600 rounded py-2 px-20">
-                      Update my resume
-                    </button>
-                    <button class="border-orange-700 rounded-full">
-                      →
-                    </button>
-                  </div> -->
+          
         </div>
+
+    </div>
         <div class="flex jusutify-center mt-2 ">
             <button class="px-6 py-2 rounded-lg bg-purple-800 text-white mx-auto font-bold"><a href={{ route('sample') }}>View
                     More Samples</a></button>
@@ -2057,7 +1405,7 @@
 
                 <div class="col-span-12 mx-auto text-center lg:text-left lg:col-span-6 lg:mx-0">
                     <p class="text-white text-3xl font-bold " id="person-name">Kelly Wilson</p>
-                    <h4 class="font-bold text-white text-3xl" id="person-profession">Medical Expert</h4>
+                    <h6 class="font-bold text-white text-3xl" id="person-profession">Medical Expert</h6>
                 
 
                     <div class="mt-8 p-6 shadow-lg border rounded-lg bg-white mx-6 lg:mx-0 lg:w-[70%]">
@@ -2089,7 +1437,7 @@
 
     <!-- Testimonial -->
     <section>
-        <h4 class="font-bold text-gray-500 text-4xl text-center py-5"> TESTIMONIALS</h4>
+        <h6 class="font-bold text-gray-500 text-4xl text-center py-5"> TESTIMONIALS</h6>
 
         <div class="carousel relative">
             <div class="carousel-inner relative overflow-hidden w-full">
@@ -2139,7 +1487,7 @@
 
     <!-- faq -->
     <section>
-        <h4 class="font-bold text-gray-500 text-4xl text-center pt-8"> Frequently asked questions</h4>
+        <h6 class="font-bold text-gray-500 text-4xl text-center pt-8"> Frequently asked questions</h6>
         <p class="text-gray-700 text-center text-md py-4 ">Can't Find Here? Contact Us.</p>
 
         <div class="container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mx-auto px-10 pt-6">
@@ -2282,7 +1630,7 @@
             ['Custom Written CV', 'Custom Written Cover letter', 'Industry experts', 'PDF and DOC formats','Keyword Optimized','1-on-1 chat with your expert','Free revisions',"Pay after you're satisfied",'24/7 Support'],
             ['Custom Written CV', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert','Free revisions',"Pay after you're satisfied",'24/7 Support']
         ]
-        var tabPrice=['25','20','25','30','20','40','70','40','70']
+        var tabPrice=['20','15','20','25','20','35','65','35','65']
         var tabOldPrice=['35','30','40','45','35','50','80','55','85']
 
         var checkSvg =

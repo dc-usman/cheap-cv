@@ -135,10 +135,10 @@
 
         <div class="container py-4 lg:py-24 mx-auto">
             <div class="flex flex-col w-full px-0 md:px-12 ">
-                <h1 class="text-xl sm:text-4xl lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center">
-                    {{ $service->title }}</h1>
-                <h4 class="text-xl sm:text-2xl font-medium title-font text-gray-600 text-center">Secure the job you want with
-                    our resume writing services</h4>
+                <h6 class="text-4xl lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center">
+                    {{ $service->title }}</h6>
+                <h6 class="text-xl md:text-2xl font-medium title-font text-gray-600 text-center mx-4 md:mx-0">Secure the job you want with
+                    our resume writing services</h6>
 
                 <div class="flex flex-col md:px-12 w-full mt-12">
                     <form action="{{ route('order.query') }}" method="POST">
