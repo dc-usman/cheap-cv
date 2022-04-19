@@ -1,5 +1,5 @@
 @extends('layouts.web')
-@section('title')
+@section('title','Samples')
 @section('description')
 @section('canonical', config('app.url'). Request::path() )
 

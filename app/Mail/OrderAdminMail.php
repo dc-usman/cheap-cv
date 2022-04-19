@@ -21,7 +21,7 @@ class OrderAdminMail extends Mailable
      *
      * @return void
      */
-    public function __construct(Order $order, $files)
+    public function __construct( $order, $files)
     {
         $this->order = $order;
         $this->attachmentsPath = $files;

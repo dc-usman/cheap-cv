@@ -30,6 +30,9 @@
                     <li>
                         <a href="{{ route('reviews') }}" class="text-white hover:text-purple-300 "> Reviews</a>
                     </li>
+                    <li>
+                        <a href="{{ route('sample') }}" class="text-white hover:text-purple-300 "> Samples</a>
+                    </li>
                     {{-- <li>
                         <a href="{{ route('blogs') }}" class="text-white hover:text-purple-300 "> Blog</a>
                     </li> --}}
@@ -55,31 +58,10 @@
                     <i class="fa-brands fa-whatsapp text-white hover:text-purple-300 "></i>
                     +441158881209
                 </a>
-                {{-- <div class="text-secondary text-md my-2">
-                    <h4 class="uppercase text-xl text-white">
-                        Call Us
-                    </h4>
-                    <a href="" target="_blank"
-                        class="flex text-white hover:text-purple-300 justify-center md:justify-start">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                            viewBox="0 0 226 226" class="pr-1" style=" fill:#000000;">
-                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                                style="mix-blend-mode: normal">
-                                <path d="M0,226v-226h226v226z" fill="none"></path>
-                                <g fill="#ffffff">
-                                    <path
-                                        d="M184.14917,139.50736c-10.37765,0 -20.56677,-1.62309 -30.22253,-4.81409c-4.73132,-1.61389 -10.54777,-0.13334 -13.4353,2.83236l-19.05863,14.38708c-22.1025,-11.79842 -35.71712,-25.40845 -47.35461,-47.34542l13.96407,-18.56205c3.62781,-3.62321 4.92904,-8.91549 3.37032,-13.88131c-3.20479,-9.70634 -4.83248,-19.89087 -4.83248,-30.27311c0,-7.49931 -6.10152,-13.60083 -13.60083,-13.60083h-31.12834c-7.49931,0 -13.60083,6.10152 -13.60083,13.60083c0,85.96387 69.9353,155.89917 155.89917,155.89917c7.49931,0 13.60083,-6.10152 13.60083,-13.60083v-31.04097c0,-7.49931 -6.10152,-13.60083 -13.60083,-13.60083z">
-                                    </path>
-                                </g>
-                            </g>
-                        </svg>
-                        +971-543-901-889
-                    </a>
-                    
-                </div> --}}
                 <div class="text-white">info@cheapcvwriting.co.uk</div>
+                <div class="ml:0 md:ml-16 text-xl" ><a href="https://www.facebook.com/Cheap-CV-Writing-UK-107519971939278?_rdc=1&_rdr"><i class="fa-brands fa-facebook text-white hover:text-purple-500"></i></a>
+                      <a href="https://www.instagram.com/cheapcvwritinguk/"><i class="fa-brands fa-instagram-square text-white hover:text-purple-500"></i></a> 
+                </div>
             </div>
         </div>
     </div>

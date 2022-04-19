@@ -136,10 +136,8 @@
         <div class="container py-4 lg:py-24 mx-auto">
             <div class="flex flex-col w-full px-0 md:px-12 ">
                 <h6 class="text-4xl lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center">
-                    {{ $service->title }}</h6>
-                <h6 class="text-xl md:text-2xl font-medium title-font text-gray-600 text-center mx-4 md:mx-0">Secure the job you want with
-                    our resume writing services</h6>
-
+                    {{ $service->name }}</h6>
+              
                 <div class="flex flex-col md:px-12 w-full mt-12">
                     <form action="{{ route('order.query') }}" method="POST">
                         @if (session('success'))
@@ -168,8 +166,7 @@
                             <div class="  w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3">
                                 <select name="carrer_level" id="carrer_level"
                                     class="get-fare w-full text-gray-700 shadow-xl rounded border border-gray-300 bg-white  focus:border-purple-400 focus:ring-2 focus:ring-purple-200 text-base h-12 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                                    {{-- {{ $carrer_level_first=$carrer_levels[0] }}
-                            <option hidden="" value="{{ $carrer_level_first->id }}" disabled="" selected="{{ $carrer_level_first }}" >{{ $carrer_level_first->name }}</option> --}}
+                                    <option hidden="" value="0" disabled="" selected="">Carrer Level</option>
                                     @foreach ($carrer_levels as $carrer_level)
                                         <option {{ old('$carrer_level') == $carrer_level->id ? 'selected' : '' }}
                                             value="{{ $carrer_level->id }}">{{ $carrer_level->name }}</option>
@@ -181,8 +178,7 @@
                             <div class="w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3">
                                 <select name="select_service" id="select_service"
                                     class="get-fare w-full text-gray-700 shadow-xl rounded border border-gray-300 bg-white  focus:border-purple-400 focus:ring-2 focus:ring-purple-200 text-base h-12 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                                    {{-- {{ $select_service_first=$select_services[0]}}
-                                    <option hidden="" value="{{ $select_service_first->id }}" disabled="" selected="">{{ $select_service_first->name }}</option> --}}
+                                    <option hidden="" value="0" disabled="" selected="">Select Service</option>
                                     @foreach ($select_services as $select_service)
                                         <option {{ old('$select_service') == $select_service->id ? 'selected' : '' }}
                                             value="{{ $select_service->id }}">{{ $select_service->name }}</option>
@@ -192,8 +188,7 @@
                             <div class="w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3">
                                 <select name="deadline_id" id="deadline"
                                     class="get-fare w-full text-gray-700 shadow-xl rounded border border-gray-300 bg-white  focus:border-purple-400 focus:ring-2 focus:ring-purple-200 text-base h-12 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
-
-
+                                    <option hidden="" value="0" disabled="" selected="">Deadline</option>
                                     @foreach ($days as $day)
                                         <option {{ old('$day') == $day->id ? 'selected' : '' }} value="{{ $day->id }}">
                                             {{ $day->name }}
@@ -205,7 +200,7 @@
                             <div class="w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3">
                                 <div
                                     class="flex flex-inline justify-center  w-full text-white font-extrabold text-2xl shadow-xl rounded border border-gray-300 bg-purple-700  focus:border-purple-400 focus:ring-2 focus:ring-purple-200  h-12 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out ">
-                                    <span id="cost">20</span>£
+                                    <span id="cost"><svg class="inline-block " width="40px" height="40px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" stroke="#ffffff"><g transform="rotate(0 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(30 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(90 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(150 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(210 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(270 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(330 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate></rect></g></svg></span>£
                                 </div>
                             </div>
                     </form>

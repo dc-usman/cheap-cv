@@ -22,7 +22,7 @@ class CreateOrdersTable extends Migration
             $table->string('select_service');
             $table->string('deadline_id');
             $table->double('total_price',4,1);
-            $table->mediumText('detail');
+            $table->mediumText('detail')->nullable();
             $table->boolean('is_complete')->default(false);
             $table->timestamps();
 

@@ -14,7 +14,11 @@
                     class="py-4 px-2 font-semibold hover:text-purple-500 transition duration-300 text-gray-500 {{ request()->routeIs('home') ? 'border-b-4 border-purple-500' : '' }}"
                     href="{{ route('home') }}">Home</a>
 
-
+                    <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('about') ? 'border-b-4 border-purple-500' : '' }}"
+                        href="{{ route('about') }} "> About
+                    Us</a>
+                
+                    
                 <div class="relative group">
                   
                     <a class="py-4 px-4 cursor-pointer text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->is('services/*') ? 'border-b-4 border-purple-500' : '' }}"
@@ -43,18 +47,15 @@
 
                 </div>
 
-                <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('about') ? 'border-b-4 border-purple-500' : '' }}"
-                    href="{{ route('about') }} "> About
-                    Us</a>
-                <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('contact') ? 'border-b-4 border-purple-500' : '' }}"
-                    href="{{ route('contact') }}">
-                    Contact</a>
                 <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('sample') ? 'border-b-4 border-purple-500' : '' }}"
                     href="{{ route('sample') }}">
                     Samples</a>
                 <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('reviews') ? 'border-b-4 border-purple-500' : '' }}"
-                    href="{{ route('reviews') }}">
-                    Reviews</a>
+                        href="{{ route('reviews') }}">
+                Reviews</a>
+                <a class="py-4 px-4 text-gray-500 font-semibold hover:text-purple-500 transition duration-300 {{ request()->routeIs('contact') ? 'border-b-4 border-purple-500' : '' }}"
+                    href="{{ route('contact') }}">
+                    Contact</a>
                   <a class=" rounded relative inline-flex font-medium group items-center justify-center py-2 px-6 m-1 cursor-pointer  active:shadow-none shadow-lg bg-gradient-to-tr overflow-hidden from-purple-600 to-purple-500 border-purple-700 text-white {{ request()->routeIs('order') ? 'border-b-4 border-purple-500' : '' }} animate-wiggle hover:animate-none" style="animation-name:tada;           animation-duration:5s; animation-delay:1s;"
                     href="{{ route('order') }}">
                     <span
@@ -83,22 +84,16 @@
                     <a aria-current="page"
                         class="block text-sm px-6 py-4 text-purple-600  font-semibold hover:bg-purple-400 hover:text-white"
                         href="{{ route('home') }}">
-                        Home</a>
+                    Home</a>
                 </li>
                 <li>
                     <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
                         href="{{ route('about') }}">About</a>
                 </li>
-                <li>
-                    <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
-                        href="{{ route('contact') }}">Contact
-                        Us</a>
-                </li>
+                
 
                 <li>
                     <div @click.away="open = false" class="relative" x-data="{ open: false }">
-
-
                         <p @click="open = !open"
                             class=" flex flex-row items-center w-full px-4  text-sm text-left bg-transparent  md:w-auto md:inline md:mt-0 md:ml-4 hover:bg-dullgreen hover:text-purple-500 group">
                             <span class="block text-sm px-2 py-2 text-purple-600  font-semibold ">Services
@@ -135,15 +130,22 @@
                 </li>
 
                 <div class="-z-10">
+
+                    <li>
+                        <a class="block  text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
+                            href="{{ route('sample') }}">Samples
+                        </a>
+                    </li>
                     <li>
                         <a class="block  text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
                             href="{{ route('reviews') }}">Reviews
                         </a>
                     </li>
+                    
                     <li>
-                        <a class="block  text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
-                            href="{{ route('sample') }}">Samples
-                        </a>
+                        <a class="block text-sm px-6 py-4 text-purple-600 bg-white font-semibold hover:bg-purple-400 hover:text-white"
+                            href="{{ route('contact') }}">Contact
+                            Us</a>
                     </li>
                     <li class="">
                         <a class=" " href="{{ route('order') }}">

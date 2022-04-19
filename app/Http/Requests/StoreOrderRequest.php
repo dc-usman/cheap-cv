@@ -31,7 +31,7 @@ class StoreOrderRequest extends FormRequest
             'carrer_level'      => 'required',
             "select_service"    => 'required',
             "deadline_id"       => 'required',
-            "detail"            => "required|string",
+            // "detail"            => "nullable|string",
             'emailAttachments.*'=> 'required|file|mimes:pdf,ppt,pptx,doc,docx,xls,xlsx,csv,txt,jpeg,jpg,png,gif,sav,sps,spv,spo,mat,zip,rar|max:250000',
 
         ];

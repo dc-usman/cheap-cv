@@ -23,7 +23,12 @@
     h2 {
         @apply text-center text-2xl leading-10 my-4;
     }
-
+    h5{
+        @apply text-purple-500;
+    }
+    h6{
+        @apply text-purple-500;
+    }
     p{
         @apply my-2;
     }
@@ -36,6 +41,10 @@
     }
     .service-show-section h4{
         @apply text-lg lg:text-3xl md:text-xl font-bold text-primary;
+    }
+  
+    .service-show-section h5,h6{
+        @apply text-lg lg:text-xl md:text-xl font-bold text-primary text-purple-500;
     }
     .service-show-section p{
         @apply my-2;

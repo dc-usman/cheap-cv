@@ -1260,25 +1260,6 @@ Ensure the default browser behavior of the `hidden` attribute.
           animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
-@-webkit-keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
 @-webkit-keyframes wiggle {
   0%, 100% {
     transform: rotate(-3deg);
@@ -1302,6 +1283,25 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-wiggle {
   -webkit-animation: wiggle 1s ease-in-out infinite;
           animation: wiggle 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .cursor-pointer {
@@ -2168,10 +2168,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1.75rem;
 }
 
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2474,10 +2470,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0;
 }
 
-.opacity-80 {
-  opacity: 0.8;
-}
-
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -2629,6 +2621,16 @@ h2 {
   line-height: 2.5rem;
 }
 
+h5 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+}
+
+h6 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+}
+
 p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -2698,6 +2700,29 @@ p {
   .service-show-section h4 {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+.service-show-section h5, h6 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(88 28 135 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .service-show-section h5, h6 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .service-show-section h5, h6 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -3097,6 +3122,10 @@ p {
 
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:ml-16 {
+    margin-left: 4rem;
   }
 
   .md\:block {

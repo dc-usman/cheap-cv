@@ -35,12 +35,12 @@ class Order extends Model
 
     public function carrer_level()
     {
-        return $this->belongsTo(CarrerLevelModel::class, 'carrer_level', 'id' );
+        return $this->belongsTo(CarrerLevelModel::class, 'carrer_level','id' );
     }
 
      public function selectService()
      {
-         return $this->belongsTo(SelectServices::class,'select_service', 'id');
+         return $this->belongsTo(SelectServices::class,'select_service','id');
      }
 
     public function dayModel()

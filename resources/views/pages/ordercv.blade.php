@@ -73,7 +73,7 @@
                         <label class="text-white font-semibold">Deadline:</label>
                         <select id="deadline" name="deadline_id"
                             class="get-fare w-full text-gray-700 rounded-xl border-2 border-purple-800   focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out ">
-                            <option hidden="" value="0" disabled="" selected="">Select Service</option>
+                            <option hidden="" value="0" disabled="" selected="">Deadline</option>
                             @foreach ($days as $day)
                                 <option {{ old('$day') == $day->id ? 'selected' : '' }} value="{{ $day->id }}">
                                     {{ $day->name }}
@@ -154,12 +154,12 @@
                     </div>
 
                     <div class="form-check">
-                        <input
+                        {{-- <input
                             class="form-check-input h-4 w-4 border border-gray-300 rounded-sm  checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="checkbox" value="" id="flexCheckChecked" checked>
-                        <label class="form-check-label inline-block text-gray-800" for="flexCheckChecked">
+                            type="checkbox" value="" id="flexCheckChecked" checked> --}}
+                        {{-- <label class="form-check-label inline-block text-gray-800" for="flexCheckChecked">
                             I Agree To <a href="#" class="underline">Terms And Conditions</a>
-                        </label>
+                        </label> --}}
                     </div>
 
                     <div class="w-full text-center mt-4">

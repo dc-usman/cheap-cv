@@ -47,8 +47,6 @@ class OrdersController extends Controller
 
     public function store(StoreOrderRequest $request)
     {
-        // return $request->all();
-
         if ($request->hasfile('emailAttachments')) {
             $fileSize = 0;
             $fileQty = 0;
@@ -98,22 +96,14 @@ class OrdersController extends Controller
                     ]);
                 }
             }
-            // $data = $request->all();
-            // return $data[];
-
             // Send mail to user
              Mail::to($request->email)->send(new OrderMail($order, $files));
 
             // Send mail to admin
-            //  Mail::to(env('MAIL_FROM_ADDRESS','info@cheapcvwriting.co.uk') )->send(new OrderAdminMail($order, $files));
+            Mail::to(env('MAIL_FROM_ADDRESS','info@cheapcvwriting.co.uk') )->send(new OrderAdminMail($order, $files));
         DB::commit();
 
-       //  return view('pages.order-success', compact('order'))->with('success', 'Thank you for reaching out!');
-
-        // $order = Order::create($request->all());
-        // event(new OrderCreated($order));
-
-        //return redirect()->back()->withSuccess('Thank you for showing your intrest, We\'ve receive your order successfully.');
+     
         return response()->json(['success'=>"Thank you for showing your intrest, We've receive your query successfully."]);
     }
 }

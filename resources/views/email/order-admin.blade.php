@@ -30,9 +30,9 @@
                                                         <br>
                                                         <strong>  Carrer Level : {{$order->carrer_level->name}}</strong>
                                                         <br>
-                                                        <strong>  Service Category : {{$order->select_service->name}}</strong>
+                                                        <strong>  Service Category : {{$order->selectService->name}}</strong>
                                                         <br>
-                                                        <strong>  Deadline : {{$order->deadline_id->name}}</strong>
+                                                        <strong>  Deadline  : {{$order->dayModel->name}}</strong>
                                                         <br>
                                                         <strong>  Detail : {{$order->detail}}</strong>
                                                         <br>
