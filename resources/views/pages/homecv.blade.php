@@ -1,7 +1,8 @@
 @extends('layouts.web')
-@section('title','Cheap CV Writing Services in UK – Perfect Resume Writers')
-@section('description',"Cheap CV Writing Services Provide You the Best Resume to Help You Get the Interview Call, One of the UK's best and Top Quality CV Writers Available 24/7.")
-@section('canonical', config('app.url') )
+@section('title', 'Cheap CV Writing Services in UK – Perfect Resume Writers')
+@section('description', "Cheap CV Writing Services Provide You the Best Resume to Help You Get the Interview Call, One
+    of the UK's best and Top Quality CV Writers Available 24/7.")
+@section('canonical', config('app.url'))
 {{-- Custom CSS --}}
 @section('links')
     <style>
@@ -250,7 +251,8 @@
             <div class="flex flex-col w-full px-0 md:px-12 ">
                 <h1 class="text-4xl  lg:text-7xl pb-9 font-medium title-font text-purple-900 text-center mx-2 md:mx-0">Your
                     Dream Job is a CV Away</h1>
-                <h6 class="text-xl sm:text-2xl font-medium title-font text-center mx-4 md:mx-0">Tired of applying and waiting for the
+                <h6 class="text-xl sm:text-2xl font-medium title-font text-center mx-4 md:mx-0">Tired of applying and waiting
+                    for the
                     interview call? Here we come to help with cheap CV writing & resume writing service London.
                 </h6>
 
@@ -268,7 +270,7 @@
                                             <polyline
                                                 style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
                                                 points="
-                                                    38,15 22,33 12,25 " />
+                                                        38,15 22,33 12,25 " />
                                         </svg>
                                     </div>
                                     <div>
@@ -317,7 +319,81 @@
                             <div class="w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3 ">
                                 <div
                                     class="flex flex-inline justify-center  w-full text-white font-extrabold text-2xl shadow-xl rounded border border-gray-300 bg-purple-700  focus:border-purple-400 focus:ring-2 focus:ring-purple-200  h-12 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out ">
-                                    <span id="cost" ><svg class="inline-block " width="40px" height="40px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" stroke="#ffffff"><g transform="rotate(0 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(30 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(90 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(150 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(210 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(270 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(330 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate></rect></g></svg></span>£
+                                    <span id="cost"><svg class="inline-block " width="40px" height="40px"
+                                            viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" stroke="#ffffff">
+                                            <g transform="rotate(0 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(30 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(60 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.75s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(90 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(120 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.5833333333333334s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(150 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.5s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(180 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.4166666666666667s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(210 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.3333333333333333s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(240 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.25s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(270 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(300 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                            <g transform="rotate(330 50 50)">
+                                                <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff">
+                                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                                        begin="0s" repeatCount="indefinite"></animate>
+                                                </rect>
+                                            </g>
+                                        </svg></span>£
                                 </div>
                                 {{-- <svg class="inline-block " width="40px" height="40px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" stroke="#ffffff"><g transform="rotate(0 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(30 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(90 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(150 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(210 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(270 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(330 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#ffffff"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate></rect></g></svg> --}}
                             </div>
@@ -474,7 +550,8 @@
                                 </svg>
                             </li>
                             <li class="my-auto">
-                                <img src="{{ asset('imgs/star-half-yellow.svg') }}" class="h-[14px]" alt="Cheap Cv">
+                                <img src="{{ asset('imgs/star-half-yellow.svg') }}" class="h-[14px]"
+                                    alt="Cheap Cv">
                             </li>
                             {{-- <li class="my-auto">
                                 <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
@@ -797,12 +874,11 @@
                 </div>
 
 
-              
+
 
             </div>
         </div>
         <script>
-            
             const slider = document.querySelector('.items');
             let isDown = false;
             let startX;
@@ -1013,9 +1089,10 @@
     <!-- hOW WE DO -->
     <section class="container mx-auto">
 
-        <h2 class="font-bold text-4xl text-center py-9 mx-2 md:mx-0"> It’s Simple to Hire Our Professional CV Services London </h2>
+        <h2 class="font-bold text-4xl text-center py-9 mx-2 md:mx-0"> It’s Simple to Hire Our Professional CV Services
+            London </h2>
 
-       
+
 
         <div class="hidden lg:grid grid-cols-3 place-items-center relative">
             <div class="outline-dashed outline-purple-700 rounded-full w-64 h-64 ">
@@ -1040,11 +1117,11 @@
                 </p>
             </div>
             <div class="box absolute top-[15.5%] left-[25%] xl:left-[23%] w-[16%] xl:w-[20%] h-[100%]" style="border: dashed 3px #9333ea;border-color:  #9333ea transparent transparent transparent;
-                border-radius: 54%/33% 24% 0px 0px;"></div>
+                    border-radius: 54%/33% 24% 0px 0px;"></div>
 
             <div class="box absolute top-[41.5%] left-[59%] xl:left-[57%] w-[15.5%] xl:w-[19%] h-[41%]" style="border: dashed 3px #9333ea;border-color:  transparent transparent #9333ea transparent;
-                border-radius: 0px 0px 85% 134%/87%;"></div>
-        </div> 
+                    border-radius: 0px 0px 85% 134%/87%;"></div>
+        </div>
 
         <div class="lg:hidden grid gird-cols-1 place-items-center gap-y-20 relative">
             <div class="outline-dashed outline-purple-700 rounded-full w-64 h-64">
@@ -1094,7 +1171,7 @@
     </section>
 
     <div>
-        <img src="../imgs/wavesSimple.svg" alt="waves" class="w-full" >
+        <img src="../imgs/wavesSimple.svg" alt="waves" class="w-full">
     </div>
 
     <!-- choosing cv -->
@@ -1149,7 +1226,8 @@
 
     <!-- price tabs -->
     <section class="bg-bgtabs bg-no-repeat bg-right bg-cover mx-auto pb-10">
-        <h3 class="font-bold text-white text-4xl text-center py-9 mx-4 md:mx-0"> One of the Best CV Writing Companies UK with Affordable
+        <h3 class="font-bold text-white text-4xl text-center py-9 mx-4 md:mx-0"> One of the Best CV Writing Companies UK
+            with Affordable
             Solutions</h3>
 
 
@@ -1204,11 +1282,13 @@
                                 </div>
 
                                 <div class="grid grid-cols-1 md:grid-cols-3">
-                                    <p class="text-3xl mt-3 text-bold" ><b class="text-3xl" id="tab-price"></b>£</p>
-                                    <p class="text-3xl mt-3 text-gray-400"> <del><b class="text-3xl " id="tab-old-price"></b></del>
+                                    <p class="text-3xl mt-3 text-bold"><b class="text-3xl" id="tab-price"></b>£</p>
+                                    <p class="text-3xl mt-3 text-gray-400"> <del><b class="text-3xl "
+                                                id="tab-old-price"></b></del>
                                         £</p>
                                     <a href="{{ route('order') }}"
-                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg  m-auto px-3 py-2 ">Order Now</a>
+                                        class=" text-white bg-orange-500 border-0 hover:bg-purple-500 rounded text-lg  m-auto px-3 py-2 ">Order
+                                        Now</a>
                                 </div>
 
                             </div>
@@ -1271,42 +1351,47 @@
 
     <!-- resumes -->
     <section class="mx-auto items-center pb-10 ">
-    <div class="mx-4 md:mx-0">
-        <h6 class="font-bold text-gray-500 text-4xl text-center py-4"> OUR RESUMES SAMPLES</h6>
-        <p class="text-gray-800 text-center text-md py-2 lg:px-72 mx-2 md:mx-0">You can also pick one of these templates to make your CV
-            and cover letter stand out from the rest. </p>
-        <div class="relative">
-            <div class=" relative mt-4 grid grid-cols-1 md:grid-cols-8 items-baseline ">
-                
-                <div class="h-64  bg-indigo-400 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class=" h-72 bg-indigo-500 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class=" h-80 bg-indigo-600 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class=" col-span-1 md:col-span-2 h-96  bg-indigo-700 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class=" h-80 bg-blue-400 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class=" h-72 bg-blue-500 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="Cheap Cv">
-                </div>
-                <div class="h-64  bg-blue-600 shadow-md">
-                    <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}" alt="Cheap Cv">
-                </div>
-                
-            </div>
-          
-        </div>
+        <div class="mx-4 md:mx-0">
+            <h6 class="font-bold text-gray-500 text-4xl text-center py-4"> OUR RESUMES SAMPLES</h6>
+            <p class="text-gray-800 text-center text-md py-2 lg:px-72 mx-2 md:mx-0">You can also pick one of these
+                templates to make your CV
+                and cover letter stand out from the rest. </p>
+            <div class="relative">
+                <div class=" relative mt-4 grid grid-cols-1 md:grid-cols-8 items-baseline ">
 
-    </div>
+                    <div class="h-64  bg-indigo-400 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-02.jpg') }}" alt="Cheap Cv">
+                    </div>
+                    <div class=" h-72 bg-indigo-500 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/linkedin-sample02.jpg') }}"
+                            alt="Cheap Cv">
+                    </div>
+                    <div class=" h-80 bg-indigo-600 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-03.jpg') }}" alt="Cheap Cv">
+                    </div>
+                    <div class=" col-span-1 md:col-span-2 h-96  bg-indigo-700 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-04.jpg') }}" alt="Cheap Cv">
+                    </div>
+                    <div class=" h-80 bg-blue-400 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter02.jpg') }}"
+                            alt="Cheap Cv">
+                    </div>
+                    <div class=" h-72 bg-blue-500 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/resume-01.jpg') }}" alt="Cheap Cv">
+                    </div>
+                    <div class="h-64  bg-blue-600 shadow-md">
+                        <img class="w-full h-full" src="{{ asset('imgs/cvsamples/cover-letter03.jpg') }}"
+                            alt="Cheap Cv">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
         <div class="flex jusutify-center mt-2 ">
-            <button class="px-6 py-2 rounded-lg bg-purple-800 text-white mx-auto font-bold"><a href={{ route('sample') }}>View
+            <button class="px-6 py-2 rounded-lg bg-purple-800 text-white mx-auto font-bold"><a
+                    href={{ route('sample') }}>View
                     More Samples</a></button>
         </div>
 
@@ -1353,7 +1438,7 @@
                 ]
             });
         </script>
-     
+
     </section>
 
     <!-- writers -->
@@ -1410,7 +1495,7 @@
                 <div class="col-span-12 mx-auto text-center lg:text-left lg:col-span-6 lg:mx-0">
                     <p class="text-white text-3xl font-bold " id="person-name">Kelly Wilson</p>
                     <h6 class="font-bold text-white text-3xl" id="person-profession">Medical Expert</h6>
-                
+
 
                     <div class="mt-8 p-6 shadow-lg border rounded-lg bg-white mx-6 lg:mx-0 lg:w-[70%]">
                         <p class="text-sm " id="person-detail">Made in a standout professional format, fully
@@ -1624,18 +1709,39 @@
             "Similar to the resume package, get an exclusive CV writing help UK with cover letter and LinkedIn profile. Get in touch with the professionals to learn how we can help you attract a potential opportunity with the art of writing. Our top-rated, Britain writers aren’t only responsive but are also well-versed in communicating your expertise through CVs. Get your CV written and edited at discounted rates. What’s more, you’re looking for?",
         ]
         var serviceContentBullets = [
-            ['Custom Written Resume', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'],
-            ['Custom Written Cover Letter', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert', 'Free revisions',"Pay after you're satisfied", '24/7 Support'],
-            ['Custom Written CV', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert','Free revisions', "Pay after you're satisfied", '24/7 Support'],
-            ['Full-cycle editing of LinkedIn profile', 'Pro Tips on what info to add', 'Industry experts','1-on-1 chat with your expert', 'Free revisions',"Pay after you're satisfied",'24/7 Support'],
-            ['Custom Written Follow-Up Letter', 'Editable Files', 'Custom Design', '1-on-1 chat with your expert','Free revisions',"Pay after you're satisfied",'24/7 Support'],
-            ['Custom Written Resume and Cover letter', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert','4 weeks of free revisions',"Pay after you're satisfied",'24/7 Support'],
-            ['All-inclusive package in PDF and DOC', 'Custom Resume', 'Custom Cover letter', 'LinkedIn profile audit','Industry experts','Keyword Optimized','1-on-1 chat with your expert','Free revisions','24/7 Support'],
-            ['Custom Written CV', 'Custom Written Cover letter', 'Industry experts', 'PDF and DOC formats','Keyword Optimized','1-on-1 chat with your expert','Free revisions',"Pay after you're satisfied",'24/7 Support'],
-            ['Custom Written CV', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized','1-on-1 chat with your expert','Free revisions',"Pay after you're satisfied",'24/7 Support']
+            ['Custom Written Resume', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized',
+                '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ],
+            ['Custom Written Cover Letter', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized',
+                '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ],
+            ['Custom Written CV', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized',
+                '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ],
+            ['Full-cycle editing of LinkedIn profile', 'Pro Tips on what info to add', 'Industry experts',
+                '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ],
+            ['Custom Written Follow-Up Letter', 'Editable Files', 'Custom Design', '1-on-1 chat with your expert',
+                'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ],
+            ['Custom Written Resume and Cover letter', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized',
+                '1-on-1 chat with your expert', '4 weeks of free revisions', "Pay after you're satisfied",
+                '24/7 Support'
+            ],
+            ['All-inclusive package in PDF and DOC', 'Custom Resume', 'Custom Cover letter', 'LinkedIn profile audit',
+                'Industry experts', 'Keyword Optimized', '1-on-1 chat with your expert', 'Free revisions',
+                '24/7 Support'
+            ],
+            ['Custom Written CV', 'Custom Written Cover letter', 'Industry experts', 'PDF and DOC formats',
+                'Keyword Optimized', '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied",
+                '24/7 Support'
+            ],
+            ['Custom Written CV', 'PDF and DOC formats', 'Industry experts', 'Keyword Optimized',
+                '1-on-1 chat with your expert', 'Free revisions', "Pay after you're satisfied", '24/7 Support'
+            ]
         ]
-        var tabPrice=['20','15','20','25','20','35','65','35','65']
-        var tabOldPrice=['35','30','40','45','35','50','80','55','85']
+        var tabPrice = ['20', '15', '20', '25', '20', '35', '65', '35', '65']
+        var tabOldPrice = ['35', '30', '40', '45', '35', '50', '80', '55', '85']
 
         var checkSvg =
             '<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15" viewBox="0 0 172 172" style=" fill:#000000;" class="my-auto"> <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"   font-family="none" font-weight="none" font-size="none" text-anchor="none"   style="mix-blend-mode: normal">   <path d="M0,172v-172h172v172z" fill="#9b59b6"></path> <g fill="#ffffff"> <path d="M53.27987,135.92013c2.23887,2.23819 5.86807,2.23819 8.10693,0l97.46667,-97.46667c1.49042,-1.43949 2.08815,-3.57117 1.56346,-5.57571c-0.52469,-2.00454 -2.09015,-3.57 -4.09469,-4.09469c-2.00454,-0.52469 -4.13622,0.07305 -5.57571,1.56346l-93.4132,93.4132l-30.34653,-30.34653c-2.24964,-2.17277 -5.82555,-2.1417 -8.03709,0.06984c-2.21154,2.21154 -2.24261,5.78745 -0.06984,8.03709z"> </path> </g> </g> </svg>';
@@ -1680,7 +1786,7 @@
         //make function that sense the click and display props
         //props should be in arrays
 
-        var personName = ['Jack Wilson', 'Andrew', 'Sarah H.','William Hales','Louisa', 'Peter Yan', 'Henry W.', 
+        var personName = ['Jack Wilson', 'Andrew', 'Sarah H.', 'William Hales', 'Louisa', 'Peter Yan', 'Henry W.',
             'Kevin', 'Gregory Oscar'
         ];
         var personProffesion = ['Career Counselor', 'Social Media Expert', 'IT Expert', 'Career Coach', 'HR Manager',

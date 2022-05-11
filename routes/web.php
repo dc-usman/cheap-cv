@@ -67,6 +67,9 @@ Route::group(['namespace' => 'Web' ], function() {
     //     dd("Cache is cleared");
     // });
 
+    //Google index
+    // Route::get('/google-index', 'GoogleIndexController@index');
+
 
     // PagesController
     Route::get('/',             "PagesController@index")->name('home');

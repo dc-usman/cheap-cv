@@ -59,7 +59,7 @@
                     +441158881209
                 </a>
                 <div class="text-white">info@cheapcvwriting.co.uk</div>
-                <div class="ml:0 md:ml-16 text-xl" ><a href="https://www.facebook.com/Cheap-CV-Writing-UK-107519971939278?_rdc=1&_rdr"><i class="fa-brands fa-facebook text-white hover:text-purple-500"></i></a>
+                <div class=" text-xl" ><a href="https://www.facebook.com/Cheap-CV-Writing-UK-107519971939278?_rdc=1&_rdr"><i class="fa-brands fa-facebook text-white hover:text-purple-500"></i></a>
                       <a href="https://www.instagram.com/cheapcvwritinguk/"><i class="fa-brands fa-instagram-square text-white hover:text-purple-500"></i></a> 
                 </div>
             </div>

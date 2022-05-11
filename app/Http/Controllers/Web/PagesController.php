@@ -40,6 +40,7 @@ class PagesController extends Controller
     
     public function about()
     {
+        //   Artisan::call('optimize');
         return view('pages.about');
     }
 

@@ -720,6 +720,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
@@ -966,8 +971,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[80\%\] {
-  height: 80%;
+.h-\[32rem\] {
+  height: 32rem;
+}
+
+.h-\[32-rem\] {
+  height: 32 - rem;
 }
 
 .h-\[24rem\] {
@@ -1086,8 +1095,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 40%;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .w-5 {
@@ -1316,10 +1325,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -1414,12 +1419,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-20 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(5rem * var(--tw-space-x-reverse));
-  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -3044,6 +3043,11 @@ p {
     margin-bottom: 1.5rem;
   }
 
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .md\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -3124,10 +3128,6 @@ p {
     margin-left: 1rem;
   }
 
-  .md\:ml-16 {
-    margin-left: 4rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -3200,16 +3200,12 @@ p {
     width: 50%;
   }
 
-  .md\:w-\[70\%\] {
-    width: 70%;
+  .md\:w-\[40\%\] {
+    width: 40%;
   }
 
   .md\:w-\[45\%\] {
     width: 45%;
-  }
-
-  .md\:w-\[60\%\] {
-    width: 60%;
   }
 
   .md\:w-full {
